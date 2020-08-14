@@ -1,15 +1,19 @@
 .section__form {
-  margin-top: 100px;
   min-height: 668px;
   min-width: 1250px;
 
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  background: $bg_grey;
+
 
   &__inner {
+    margin-top: 27px;
     display: flex;
-    width: 100%;
+    width: 1183px;
+    height: auto;
 
     display: flex;
     flex-direction: row;
@@ -18,25 +22,28 @@
 
   &__left_block {
     width: 500px;
-
   }
 
   &__right_block {
-
-
     width: 590px;
-    height: 495px;
+
+    .register {
+      font-size: 18px;
+      font-weight: 400;
+      margin-bottom: 17px;
+    }
 
     .form {
       display: flex;
       flex-direction: column;
 
-      h2 {}
-
       .form-label {
+        font-weight: 300;
         width: fit-content;
         position: relative;
-        a{
+        margin-bottom: 9px;
+
+        a {
           width: fit-content;
         }
 
@@ -54,17 +61,55 @@
       }
 
       .form-input {
-        width: 100%;
+        width: 588px;
         height: 50px;
-        padding: 0 10px;
+        padding: 0 15px;
+        margin-bottom: 14px;
+        border: 0;
+        border: 1px solid rgba($color: #000000, $alpha: 0.3);
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+
+        &::placeholder {
+          color: #a3a9ba;
+          font-size: 14px;
+        }
       }
 
-      .checkbox-button{
-        
+      .confidence {
+        vertical-align: middle;
       }
 
-      .politician{
+      .checkbox-button {
+        margin-bottom: 4px;
+        margin-right: 4px;
+      }
+
+      .politician {
         padding-right: 7px;
+        text-decoration: none;
+        color: #307ab9;
+      }
+
+      .form-button-action {
+        margin: 0 auto;
+        margin-top: 35px;
+
+
+        text-transform: uppercase;
+        padding: 15px 76px;
+        width: fit-content;
+        background: $button_bg_color;
+        border: none;
+        color: #ffffff;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
       }
 
     }
