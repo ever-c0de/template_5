@@ -1,4 +1,34 @@
+@import 'partials/reset'; // include
+@import 'partials/app'; //include fonts
+
+// Variables
+$text_color: #666666;
+$button_bg_color: #307ab9;
+
 html {
-  color: red;
-  font-size: 35px;
+  height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+
+  font-family: "Open Sans", serif;
+  font-size: 16px;
+  margin: 0 auto;
+
+  width: auto;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .container {
+    width: 1250px;
+    margin: 0 auto;
+    padding: 0px 15px;
+  }
+
+  @import 'partials/header';
+  @import 'partials/section_form';
 }
