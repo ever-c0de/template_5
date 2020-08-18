@@ -1,5 +1,5 @@
 .section__form {
-  min-height: 668px;
+  min-height: 710px;
   min-width: 1250px;
 
   display: flex;
@@ -8,9 +8,8 @@
   align-items: center;
   background: $bg_grey;
 
-
   &__inner {
-    margin-top: 27px;
+    margin-top: 0px;
     display: flex;
     width: 1183px;
     height: auto;
@@ -21,14 +20,32 @@
   }
 
   &__left_block {
-    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+      margin-top: 125px;
+      font-weight: 700;
+      font-size: 29px;
+      margin-bottom: 27px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 16px;
+      width: 463px;
+      text-align: center;
+      line-height: 30px;
+      color: $text_color;
+    }
   }
 
   &__right_block {
     width: 590px;
 
     .register {
-      font-size: 18px;
+      font-size: 19px;
       font-weight: 400;
       margin-bottom: 17px;
     }
@@ -48,11 +65,11 @@
         }
 
         &::after {
-          content: '';
+          content: "";
           display: inline-block;
           width: 7px;
           height: 7px;
-          background: url('../img/icons/required.png') center no-repeat;
+          background: url("../img/icons/required.png") center no-repeat;
           background-size: cover;
           margin-left: 2px;
           text-align: center;
@@ -77,6 +94,12 @@
           color: #a3a9ba;
           font-size: 14px;
         }
+
+        &:focus {
+          box-shadow: 10px 10px 10px rgba($color: $button_bg_color, $alpha: 0.2);
+
+          border-color: $button_bg_color;
+        }
       }
 
       .confidence {
@@ -98,7 +121,6 @@
         margin: 0 auto;
         margin-top: 35px;
 
-
         text-transform: uppercase;
         padding: 15px 76px;
         width: fit-content;
@@ -111,7 +133,6 @@
         -ms-border-radius: 30px;
         -o-border-radius: 30px;
       }
-
     }
   }
 }

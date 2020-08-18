@@ -1,4 +1,4 @@
-.header_twin{
+.header_twin {
   height: 100px;
   min-width: 1250px;
 }
@@ -34,11 +34,19 @@
   }
 
   &__menu {
-    font-size: 14px;
+    font-size: 16px;
 
     &__list {
       display: flex;
       flex-direction: row;
+
+      & li a {
+        transition: all .3s ease-in-out;
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+      }
 
       & li a:hover {
         color: #307ab9;
