@@ -1,0 +1,24 @@
+.feedback {
+  min-width: 1250px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__inner {
+    text-align: center;
+  }
+
+  &__text{
+    width: 878px;
+  }
+}
+.slick {
+
+  &__item {
+  }
+}
+.name {
+}
+.position {
+}
