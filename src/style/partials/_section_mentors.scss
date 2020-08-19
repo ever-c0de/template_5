@@ -1,0 +1,42 @@
+.mentors {
+  min-width: 1250px;
+  min-height: 614px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__inner {
+    min-width: 0;
+  }
+
+  &__title {
+  }
+
+  &__photo {
+    width: 337px;
+    height: 326px;
+  }
+
+  &__name {
+  }
+
+  &__dialog {
+
+  }
+
+  &__text {
+
+    &_one {
+    }
+
+    &_two {
+    }
+
+    &_three {
+    }
+
+    &_four {
+    }
+  }
+}

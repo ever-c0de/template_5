@@ -1,6 +1,7 @@
 .development {
   min-height: 563px;
   min-width: 1250px;
+  position: relative;
 
   display: flex;
   flex-direction: row;
@@ -9,7 +10,8 @@
 
   &__inner {
     text-align: center;
-    min-width: 1250px;
+    min-width: 0px;
+
 
     .title {
       font-size: 30px;
@@ -19,24 +21,23 @@
   }
 
   &__blocks {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    overflow: hidden;
+  }
+
+  .slider-top {
     min-width: 1250px;
     overflow: hidden;
   }
 
   .slick-track {
     display: flex;
-
   }
-    .slick-dots {
+
+  .slick-dots {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 140px;
-
-
+    margin-top: 30px;
 
     li {
       list-style: none;
@@ -44,6 +45,10 @@
     }
 
     .slick-active {
+      .development__block {
+        margin: 0;
+      }
+
       button {
         background-color: #666666;
       }
@@ -64,7 +69,7 @@
   }
 
   &__block {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
@@ -72,7 +77,7 @@
 
 
     width: 350px;
-    margin-right: 70px;
+    
 
     &:last-child {
       margin: 0;

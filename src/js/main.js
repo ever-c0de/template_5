@@ -16,7 +16,7 @@
 
       // fade
       useTransform: true,
-      speed: 3000,
+      speed: 2000,
       fade: true,
       cssEase: "cubic-bezier(0.22, 1, 0.36, 1)",
     });
@@ -27,16 +27,15 @@
   console.log(blocks);
 
   if (blocks > 3) {
-    $(".development__blocks").slick({
+    $(".slider-top").slick({
       // autoplay
       arrows: false,
       infinite: true,
-      slidesToShow: 1,
+      slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 100,
+      autoplaySpeed: 3000,
       dots: true,
-
     });
   }
 })();
