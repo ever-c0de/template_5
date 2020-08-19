@@ -1,0 +1,38 @@
+.video {
+  min-width: 1250px;
+  min-height: 866px;
+  background-color: $bg_grey;
+
+  &__inner {
+    margin-top: 76px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__text {
+    
+    h2{
+      font-size: 30px;
+    }
+    .lorem{ 
+      color: $text_color;
+      font-size: 16px;
+
+      margin-top: 30px;
+      width: 1157px;
+    }
+  }
+
+  &__youtube {
+    margin-top: 31px;
+  }
+}
+
+.youtube {
+  width: 1020px;
+  height: 520px;
+}

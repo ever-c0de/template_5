@@ -1,0 +1,130 @@
+.feedback {
+  min-width: 1250px;
+  min-height: 527px;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
+  &__inner {
+    min-width: 0;
+    min-height: 527px;
+
+    text-align: center;
+
+    h2 {
+      font-size: 30px;
+
+      margin-top: 65px;
+      margin-bottom: 15px;
+    }
+  }
+
+  &__text {
+    margin-top: 15px;
+    position: relative;
+    font-size: 20px;
+    color: $text_color;
+
+    width: 834px;
+
+    text-align: center;
+    line-height: 33px;
+
+
+    &::before {
+      content: "";
+      display: inline-block;
+      background: url('../img/icons/quatation_mark_l.png') no-repeat center;
+
+      width: 30px;
+      height: 27px;
+
+      position: absolute;
+      top: -9%;
+      left: -6%;
+    }
+
+    &::after {
+      content: "";
+      display: inline-block;
+      background: url('../img/icons/quatation_mark_r.png') no-repeat center;
+
+      width: 30px;
+      height: 27px;
+
+      position: absolute;
+      bottom: 0%;
+      right: -6%;
+    }
+  }
+}
+
+.slider {
+  min-width: 1250px;
+  overflow: hidden;
+
+  .person {
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .name {}
+
+    .position {
+      color: $text_color;
+      font-style: italic;
+      font-size: 13px;
+    }
+  }
+
+  .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+
+
+
+    li {
+      list-style: none;
+      margin: 0 7px;
+    }
+
+    .slick-active {
+      button {
+        background-color: #666666;
+      }
+    }
+
+    button {
+      font-size: 0;
+      background-color: #b4b5b5;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border: none;
+    }
+  }
+}
+
+.slick-track {
+  display: flex;
+  
+}
+
+.text_slider {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

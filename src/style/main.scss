@@ -8,6 +8,7 @@ $bg_grey: #f7f7f7;
 
 html {
   height: 100%;
+  box-sizing: border-box;
 }
 
 body {
@@ -34,5 +35,8 @@ body {
   @import 'partials/section_form';
   @import 'partials/section_development';
   @import 'partials/section_achievements';
-  @import 'partials/section_feedbacks';
+  @import 'partials/section_feedback';
+  @import 'partials/section_video';
+  @import 'partials/section_contacts';
+
 }

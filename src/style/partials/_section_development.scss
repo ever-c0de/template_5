@@ -9,6 +9,7 @@
 
   &__inner {
     text-align: center;
+    min-width: 1250px;
 
     .title {
       font-size: 30px;
@@ -21,7 +22,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 1250px;
+    overflow: hidden;
+  }
 
+  .slick-track {
+    display: flex;
 
   }
 

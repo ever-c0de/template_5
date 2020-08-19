@@ -1,0 +1,33 @@
+.contacts {
+  min-width: 1250px;
+  height: 196px;
+  background-color: #3199dc;
+
+  &__inner {
+   
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #ffffff;
+  }
+}
+
+.phone-svg {
+  width: 60px;
+  height: 60px;
+}
+
+.name {
+  margin-top: 5px;
+  
+  font-weight: 800;
+}
+
+.sub {
+  margin-top: 5px;
+}
