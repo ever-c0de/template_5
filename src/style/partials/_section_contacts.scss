@@ -3,15 +3,23 @@
   height: 196px;
   background-color: #3199dc;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   &__inner {
-   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 1060px;
   }
 
   &__block {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+
 
     color: #ffffff;
   }
@@ -24,10 +32,15 @@
 
 .name {
   margin-top: 5px;
-  
+
   font-weight: 800;
 }
 
 .sub {
   margin-top: 5px;
+
+  a{
+    text-decoration: none;
+    color: #ffffff;
+  }
 }
