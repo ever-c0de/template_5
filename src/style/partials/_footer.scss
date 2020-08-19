@@ -1,0 +1,26 @@
+.footer {
+  min-width: 1250px;
+  min-height: 156px;
+
+  background-color: $bg_grey;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &__copyright {
+    color: #709eca;
+  }
+
+  &__confidence {
+    margin-top: 14px;
+
+    a {
+      text-decoration: none;
+      font-size: 14px;
+      color: #98948b;
+    }
+  }
+}

@@ -31,10 +31,10 @@
       // autoplay
       arrows: false,
       infinite: true,
-      slidesToShow: 2,
+      slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 10000,
+      autoplaySpeed: 100,
       dots: true,
 
     });

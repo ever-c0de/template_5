@@ -25,21 +25,25 @@
   }
 }
 
-.phone-svg {
-  width: 60px;
-  height: 60px;
+.contacts-logo {
+  width: 50px;
+  height: 50px;
 }
 
-.name {
-  margin-top: 5px;
 
+.name {
+  margin-top: 10px;
+
+  font-size: 18px;
   font-weight: 800;
 }
 
 .sub {
   margin-top: 5px;
+  font-size: 15px;
+  color: #ffffff;
 
-  a{
+  a {
     text-decoration: none;
     color: #ffffff;
   }
