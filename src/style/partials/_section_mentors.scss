@@ -1,42 +1,99 @@
 .mentors {
   min-width: 1250px;
-  min-height: 614px;
+  min-height: 560px;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+
+  position: relative;
+
 
   &__inner {
-    min-width: 0;
+    min-width: 1250px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    overflow: hidden;
   }
 
   &__title {
+    font-size: 30px;
   }
 
   &__photo {
-    width: 337px;
-    height: 326px;
+    width: 336px;
+    height: 327px;
+    object-fit: cover;
+
+    margin-right: 106px;
   }
 
   &__name {
+    font-size: 17px;
+    font-weight: 800;
+
+    color: #3199dc;
+    border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+    padding-bottom: 16px;
+
   }
 
   &__dialog {
+    width: 701px;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    color: $text_color;
   }
 
   &__text {
 
+
     &_one {
+      margin-top: 30px;
     }
 
-    &_two {
+    &_other {
+      margin-top: 22px;
     }
+  }
+}
 
-    &_three {
-    }
 
-    &_four {
-    }
+.slick-track {
+  display: flex;
+}
+
+.slide{
+min-width: 1250px;
+display: flex;
+}
+
+.slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+
+  li {
+    list-style: none;
+    margin: 0 7px;
+  }
+
+  button {
+    font-size: 0;
+    background-color: #b4b5b5;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: none;
   }
 }

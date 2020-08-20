@@ -22,20 +22,33 @@
     });
 
     /* Development slider */
-  });
-  let blocks = document.getElementsByClassName("development__block").length;
-  console.log(blocks);
 
-  if (blocks > 3) {
-    $(".slider-top").slick({
+    let blocks = document.getElementsByClassName("development__block").length;
+    console.log(blocks);
+
+    if (blocks > 3) {
+      $(".slider-top").slick({
+        // autoplay
+        arrows: false,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: true,
+      });
+    }
+    /* Mentor's slider */
+    $(".mentors__inner").slick({
       // autoplay
       arrows: false,
       infinite: true,
-      slidesToShow: 3,
+      slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 3000,
       dots: true,
     });
-  }
+  });
+
 })();
