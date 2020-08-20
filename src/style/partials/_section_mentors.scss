@@ -1,6 +1,6 @@
 .mentors {
   min-width: 1250px;
-  min-height: 560px;
+  min-height: 635px;
 
   display: flex;
   justify-content: center;
@@ -11,9 +11,8 @@
 
 
   &__inner {
-    min-width: 1250px;
-    display: flex;
-    flex-direction: row;
+    width: 1250px;
+    
     margin-top: 30px;
     overflow: hidden;
   }
@@ -95,5 +94,10 @@ display: flex;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     border: none;
+  }
+}
+.slick-active {
+  button {
+    background-color: #666666;
   }
 }
