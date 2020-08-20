@@ -1,6 +1,7 @@
 .mentors {
   min-width: 1250px;
-  min-height: 635px;
+  margin-bottom: 62px;
+
 
   display: flex;
   justify-content: center;
@@ -12,52 +13,64 @@
 
   &__inner {
     width: 1250px;
-    
-    margin-top: 30px;
+    margin-top: 32px;
+    margin-left: 75px;
+
     overflow: hidden;
   }
 
   &__title {
-    font-size: 30px;
+    font-size: 33px;
+    text-align: center;
+    margin-top: 66px;
+
+    letter-spacing: 0.5px;
   }
 
   &__photo {
-    width: 336px;
+    width: 340px;
     height: 327px;
     object-fit: cover;
 
-    margin-right: 106px;
+    margin-right: 103px;
+
   }
 
   &__name {
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 800;
 
     color: #3199dc;
     border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
     padding-bottom: 16px;
+    letter-spacing: 0.8px;
 
   }
 
   &__dialog {
-    width: 701px;
+    width: 710px;
+
+    margin-bottom: 4px;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    line-height: 25px;
+    letter-spacing: 0.1px;
 
     color: $text_color;
+
   }
 
   &__text {
 
 
     &_one {
-      margin-top: 30px;
+      margin-top: 32px;
     }
 
     &_other {
-      margin-top: 22px;
+      margin-top: 10px;
     }
   }
 }
@@ -67,16 +80,19 @@
   display: flex;
 }
 
-.slide{
-min-width: 1250px;
-display: flex;
+.slide {
+  min-width: 1250px;
+  display: flex;
 }
 
 .slick-dots {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+  width: fit-content;
+  margin: 0 auto;
+  padding-right: 180px;
+
 
   li {
     list-style: none;
@@ -96,6 +112,7 @@ display: flex;
     border: none;
   }
 }
+
 .slick-active {
   button {
     background-color: #666666;
