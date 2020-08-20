@@ -1,6 +1,6 @@
 .feedback {
   min-width: 1250px;
-  min-height: 500px;
+
   position: relative;
 
   display: flex;
@@ -11,12 +11,14 @@
 
   &__inner {
     min-width: 0;
-    min-height: 527px;
+    margin-bottom: 40px;
+
 
     text-align: center;
 
     h2 {
-      font-size: 30px;
+      font-size: 33px;
+      letter-spacing: 0.5px;
 
       margin-top: 65px;
       margin-bottom: 15px;
@@ -24,15 +26,17 @@
   }
 
   &__text {
-    margin-top: 15px;
+    margin-top: 13px;
     position: relative;
-    font-size: 20px;
+    font-size: 21px;
     color: $text_color;
+    font-weight: 300;
 
-    width: 834px;
+    width: 920px;
 
     text-align: center;
-    line-height: 33px;
+    line-height: 36px;
+    letter-spacing: 0.9px;
 
 
     &::before {
@@ -44,8 +48,8 @@
       height: 27px;
 
       position: absolute;
-      top: -9%;
-      left: -6%;
+      top: -11%;
+      left: -5%;
     }
 
     &::after {
@@ -58,7 +62,7 @@
 
       position: absolute;
       bottom: 0%;
-      right: -6%;
+      right: -1%;
     }
   }
 }
@@ -67,8 +71,17 @@
   min-width: 1250px;
   overflow: hidden;
 
+  &__first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .person {
-    margin-top: 30px;
+    width: fit-content;
+    margin-top: 24px;
+    padding-right: 30px;
 
     display: flex;
     flex-direction: column;
@@ -80,7 +93,8 @@
     .position {
       color: $text_color;
       font-style: italic;
-      font-size: 13px;
+      font-size: 15px;
+      letter-spacing: 0.2px;
     }
   }
 
@@ -88,9 +102,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 140px;
-    padding-bottom: 40px;
-
+    margin-top: 105px;
+    padding-right: 30px;
 
 
     li {
@@ -121,7 +134,7 @@
 
 .slick-track {
   display: flex;
-  
+
 }
 
 .text_slider {
