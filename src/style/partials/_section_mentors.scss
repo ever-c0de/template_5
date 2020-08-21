@@ -12,11 +12,12 @@
 
 
   &__inner {
-    width: 1250px;
+    
     margin-top: 32px;
     margin-left: 75px;
-
     overflow: hidden;
+
+    
   }
 
   &__title {
@@ -81,7 +82,7 @@
 }
 
 .slide {
-  min-width: 1250px;
+  width: 1250px;
   display: flex;
 }
 
