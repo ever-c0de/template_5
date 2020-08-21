@@ -22,7 +22,9 @@
 
     }
   }
+  .up{
 
+  }
 
 
   .slider-top {
@@ -75,7 +77,7 @@
   &__block {
     display: inline-flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 
     &:last-child {

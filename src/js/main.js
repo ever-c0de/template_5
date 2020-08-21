@@ -26,18 +26,8 @@
     let blocks = document.getElementsByClassName("development__block").length;
     console.log(blocks);
 
-    if (blocks > 3) {
-      $(".slider-top").slick({
-        // autoplay
-        arrows: false,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        dots: true,
-      });
-    }
+    let sl = document.getElementById("mark");
+
     /* Mentor's slider */
     $(".mentors__inner").slick({
       // autoplay
@@ -49,6 +39,24 @@
       autoplaySpeed: 3000,
       dots: true,
     });
+
+    if (blocks > 3) {
+
+      $(".slider-top").slick({
+        // autoplay
+        arrows: false,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: false,
+      });
+      sl.style.display = "block";
+      sl.style.padding = "0";
+      sl.style.verticalAlign = "top";
+
+    }
   });
 
 })();
