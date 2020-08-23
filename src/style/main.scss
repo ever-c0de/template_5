@@ -6,11 +6,6 @@ $text_color: #666666;
 $button_bg_color: #307ab9;
 $bg_grey: #f7f7f7;
 
-html {
-  height: 100%;
-  box-sizing: border-box;
-}
-
 body {
   box-sizing: border-box;
 
@@ -18,7 +13,7 @@ body {
   font-size: 16px;
   margin: 0 auto;
 
-  
+
   height: auto;
 
   display: flex;
