@@ -27,6 +27,7 @@
     console.log(blocks);
 
     let sl = document.getElementById("mark");
+    let bt = document.getElementsByClassName("development__block");
 
     /* Mentor's slider */
     $(".mentors__inner").slick({
@@ -50,11 +51,12 @@
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
-        dots: false,
+        dots: true,
       });
       sl.style.display = "block";
       sl.style.padding = "0";
       sl.style.verticalAlign = "top";
+
 
     }
   });
