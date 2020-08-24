@@ -30,7 +30,7 @@
     let bt = document.getElementsByClassName("development__block");
 
     /* Mentor's slider */
-    $(".mentors__inner").slick({
+    $(".slider-bottom").slick({
       // autoplay
       arrows: false,
       infinite: true,

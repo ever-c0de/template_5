@@ -1,23 +1,17 @@
 .mentors {
-  min-width: 1250px;
-  margin-bottom: 62px;
-
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
-  position: relative;
-
+  width: 100%;
 
   &__inner {
-    
+    max-width: 1250px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .slider-bottom {
+    min-width: 0px;
     margin-top: 32px;
     margin-left: 75px;
     overflow: hidden;
-
-    
   }
 
   &__title {
@@ -32,9 +26,6 @@
     width: 340px;
     height: 327px;
     object-fit: cover;
-
-    margin-right: 103px;
-
   }
 
   &__name {
@@ -45,12 +36,10 @@
     border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
     padding-bottom: 16px;
     letter-spacing: 0.8px;
-
   }
 
   &__dialog {
-    width: 673px;
-
+    max-width: 673px;
     margin-bottom: 4px;
 
     display: flex;
@@ -66,8 +55,6 @@
   }
 
   &__text {
-
-
     &_one {
       margin-top: 30px;
     }
@@ -78,14 +65,16 @@
   }
 }
 
-
 .slick-track {
-  display: flex;
+  min-width: 0px;
 }
 
 .slide {
-  width: 1250px;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
 }
 
 .slick-dots {
