@@ -3,7 +3,6 @@
 }
 
 .contacts {
-  min-width: 1250px;
   height: 196px;
   background-color: #3199dc;
 
@@ -16,7 +15,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
-    min-width: 1060px;
+    max-width: 1060px;
+    width: 100%;
   }
 
   &__block {
