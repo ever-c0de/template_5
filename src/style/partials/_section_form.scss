@@ -1,7 +1,7 @@
 .section__form {
   padding-top: 100px;
   width: 100%;
-  
+
   background: $bg_grey;
 
   &__inner {
@@ -16,6 +16,8 @@
     justify-content: space-between;
     align-items: stretch;
   }
+
+
 
   &__left_block {
     display: flex;
@@ -154,9 +156,46 @@
         -o-border-radius: 50px;
       }
 
+      @media all and (max-width: 654px) {
+        .form-button-action {
+          padding: 15px 41px;
+        }
+
+        .form-input {
+          height: 38px;
+        }
+      }
+
       #email {
         margin-bottom: 11px;
       }
     }
   }
+}
+
+@media all and (max-width: 654px) {
+  .section__form__inner {
+    display: block;
+
+  }
+
+  .section__form__left_block {
+    width: 100%;
+    padding-top: 20px;
+
+    h1 {
+      font-size: 22px;
+    }
+    p{
+      max-width: 270px;
+      font-size: 15px;
+    }
+  }
+
+  .section__form__right_block {
+    width: 100%;
+  }
+
+
+
 }

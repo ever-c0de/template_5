@@ -84,9 +84,6 @@
         sl.style.padding = "0";
         sl.style.verticalAlign = "top";
       }
-      if (window.innerWidth <= 600) {
-
-      }
     });
 
   });
