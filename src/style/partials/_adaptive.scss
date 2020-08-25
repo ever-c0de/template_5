@@ -140,11 +140,15 @@
 
   .development {
     &__inner{
+      padding-bottom: 71px;
+      
+      justify-content: flex-end;
       .title {
         font-size: 23px;
       }
       .slider-top{
         .development__block{
+          
           img{
             margin-bottom: 11px;
           }
@@ -162,5 +166,42 @@
         }
       }
     }
+}
+.achievements {
+  padding-bottom: 30px;
+
+  &__inner {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  &__block {
+   width: 145px;
+   height: fit-content;
+
+   text-align: center;
+
+    &:first-child {}
+
+    &:last-child {}
+
+    img {
+      margin-bottom: 7px;
+     
+    }
+
+    span {
+      font-size: 17px;
+      margin-bottom: 0px;
+      letter-spacing: 0;
+
+    
+    }
+
+    p {
+     font-size: 12px;
+     letter-spacing: 0;
+    }
+  }
 }
 }
