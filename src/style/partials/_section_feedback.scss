@@ -31,12 +31,11 @@
 
 
     &::before {
-      content: "";
+      content: "\f10d";
       display: inline-block;
-      background: url('../img/icons/quatation_mark_l.png') no-repeat center;
-
-      width: 30px;
-      height: 27px;
+      font-family: 'Awesome';
+      font-size: 30px;
+      color: #c4c4c4;
 
       position: absolute;
       top: -7%;
@@ -44,15 +43,14 @@
     }
 
     &::after {
-      content: "";
+      content: "\f10e";
       display: inline-block;
-      background: url('../img/icons/quatation_mark_r.png') no-repeat center;
-
-      width: 30px;
-      height: 27px;
+      font-size: 30px;
+      font-family: 'Awesome';
+      color: #c4c4c4;
 
       position: absolute;
-      bottom: 0%;
+      bottom: -6%;
       right: -3%;
     }
   }
