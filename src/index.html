@@ -11,22 +11,23 @@
 <body>
 
   <header class="header">
+    <div class="burger" id="burger">
+      <nav class="burger__inner">
+        <ul class="burger__menu">
+          <li class="burger__item"><a href="" class="burger__link">Головна</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Програма курсу</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Відгуки про курс</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Відео</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Ментори</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Подати заявку</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="header__inner">
       <div class="header__logo">
         <img src="img/logo_Oxit.png" alt="OxIT" title="OxIT" />
       </div>
-      <div class="burger">
-        <nav class="burger__inner">
-          <ul class="burger__menu">
-            <li class="burger__item"><a href="" class="burger__link">Головна</a></li>
-            <li class="burger__item"><a href="" class="burger__link">Програма курсу</a></li>
-            <li class="burger__item"><a href="" class="burger__link">Відгуки про курс</a></li>
-            <li class="burger__item"><a href="" class="burger__link">Відео</a></li>
-            <li class="burger__item"><a href="" class="burger__link">Ментори</a></li>
-            <li class="burger__item"><a href="" class="burger__link">Подати заявку</a></li>
-          </ul>
-        </nav>
-      </div>
+
       <div class="header__menu">
         <ul class="header__menu__list">
           <li><a class="header__menu_link" href="#">Головна</a></li>
@@ -37,6 +38,9 @@
           <li><a class="header__menu_link" href="#">Подати заявку</a></li>
         </ul>
       </div>
+      <div class="burger-wrapper">
+      <button id="burger-button"><img class="burger-icon" src="img/icons/burger_icon.svg" alt="burger"></button>
+    </div>
     </div>
   </header>
 
@@ -45,7 +49,7 @@
       <div class="section__form__left_block">
         <h1>Курси програмування у Луцьку</h1>
         <p>
-          Сфера IT розвивається максимально швидко.Зараз дуже популярно
+          Сфера IT розвивається максимально швидко. Зараз дуже популярно
           здобувати освіту, що пов'язана з IT. Існує лише одна проблема - брак
           дійсно кваліфікованих спеціалістів в Україні. Під час навчання в
           університеті ми отримуємо мало практики і "живих", реальних
@@ -81,7 +85,6 @@
     </div>
   </section>
   <section class="development" id="development">
-
     <div class="development__inner">
       <h2 class="title">Курс &laquo;Розробка сайтів&raquo;</h2>
       <div class="slider-top" id="mark">
@@ -92,7 +95,7 @@
             сайти різної складності: від блогів до інтернет магазинів. Всі знання закріпиш за допомогою тестових
             завдань.</p>
         </div>
-        
+
         <div class="development__block">
           <img src="img/icons/course-icon-2.png" alt="Wordpress" title="Wordpress">
           <h2 class="development__block_title">Розробка сайтів на Drupal 8</h2>

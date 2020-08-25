@@ -24,7 +24,6 @@
     /* Development slider */
 
     let blocks = document.getElementsByClassName("development__block").length;
-    console.log(blocks);
 
     let sl = document.getElementById("mark");
     let bt = document.getElementsByClassName("development__block");
@@ -86,6 +85,23 @@
       }
     });
 
+    let show_burger = document.getElementById('burger');
+    let burger_button = document.getElementById('burger-button');
+    burger_button.addEventListener('click', function () {
+      if (show_burger.style.display == 'none') {
+        show_burger.style.display = 'flex';
+      } else {
+        show_burger.style.display = 'none';
+      }
+
+    })
   });
+
+
+
+
+
+
+
 
 })();
