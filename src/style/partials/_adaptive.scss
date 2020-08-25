@@ -221,6 +221,7 @@
         letter-spacing: 0px;
         margin-bottom: 10px;
       }
+
       margin-bottom: 29px;
     }
 
@@ -282,36 +283,163 @@
 
 
   .video {
-  
-    &__inner {
 
-    }
-  
+    &__inner {}
+
     &__text {
-  
+
       h2 {
-  font-size: 22px;
-  
+        font-size: 22px;
+
       }
-  
+
       .lorem {
         font-size: 15px;
         width: 290px;
         line-height: 22px;
       }
     }
-  
+
     &__youtube {
       padding: 0 16px;
       width: 100%;
       margin-top: 29px;
     }
   }
-  
+
   .youtube {
     width: 100%;
     height: 188px;
   }
-  
-}
 
+  /* MENOTRS */
+
+  .mentors {
+    width: 100%;
+    padding-bottom: 57px;
+
+    &__inner {
+      max-width: 1250px;
+      padding: 0 15px;
+      margin: 0 auto;
+    }
+
+    .slider-bottom {
+      margin-top: 8px;
+      margin-left: 0;
+      overflow: hidden;
+
+    }
+
+    &__title {
+      font-size: 23px;
+      text-align: center;
+      margin-top: 31px;
+      letter-spacing: 0.5px;
+    }
+
+    &__photo {
+      width: 145px;
+      height: 145px;
+      object-fit: cover;
+      margin-bottom: 19px;
+      align-self: center;
+    }
+
+    &__name {
+      font-size: 17px;
+      font-weight: 800;
+
+      color: #3199dc;
+      border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+      padding-bottom: 16px;
+      letter-spacing: 0.4px;
+      padding: 0 119px;
+    }
+
+    &__dialog {
+      max-width: 297px;
+      margin-bottom: 4px;
+      align-self: center;
+
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      font-size: 13px;
+      line-height: 22px;
+      letter-spacing: 0.2px;
+
+      color: $text_color;
+      text-align: center;
+    }
+
+    &__text {
+      &_one {
+        margin-top: 22px;
+        width: 270px;
+      }
+
+      &_other {
+        margin-top: 10px;
+        width: 295px;
+        
+      }
+    }
+  }
+
+  .slick-track {
+    min-width: 0;
+
+  }
+
+  .mentors__slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+
+  }
+
+  .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: 2px auto;
+    padding-right: 0;
+
+    li {
+      list-style: none;
+      margin: 0 7px;
+    }
+
+    button {
+      font-size: 0;
+      background-color: #b4b5b5;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border: none;
+    }
+  }
+
+  .slick-active {
+    button {
+      background-color: #666666;
+    }
+  }
+  .oneone{
+    width: 270px;
+  }
+  .onetwo {
+    margin-top: 11px;
+    width: 289px;
+  }
+}
