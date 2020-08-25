@@ -1,10 +1,7 @@
 .section__form {
   padding-top: 100px;
   width: 100%;
-
-
-
-
+  
   background: $bg_grey;
 
   &__inner {
@@ -142,7 +139,7 @@
       .form-button-action {
         margin-top: 39px;
         margin-bottom: 0px;
-        margin-left: 112px;
+        align-self: center;
         text-transform: uppercase;
         padding: 17px 91px;
         width: fit-content;

@@ -6,7 +6,7 @@
     max-width: 1250px;
     padding: 0 15px;
     text-align: center;
-    padding-bottom: 29px;
+    padding-bottom: 84px;
 
     .title {
       font-size: 33px;
@@ -24,7 +24,7 @@
 
   .slider-top {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
     overflow: hidden;
     padding: 0 29px;
@@ -35,7 +35,6 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-
 
   }
 
@@ -76,12 +75,12 @@
   }
 
   &__block {
+    
     max-width: 351px;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 
     &:last-child {
       margin: 0;
