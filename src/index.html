@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My fourth template</title>
+  <title>Школа OxIT</title>
   <link rel="stylesheet" href="style/main.css" />
 </head>
 
@@ -28,7 +28,7 @@
         <img src="img/logo_Oxit.png" alt="OxIT" title="OxIT" />
       </div>
 
-      <div class="header__menu">
+      <nav class="header__menu">
         <ul class="header__menu__list">
           <li><a class="header__menu_link" href="#">Головна</a></li>
           <li><a class="header__menu_link" href="#development">Програма курсу</a></li>
@@ -37,10 +37,10 @@
           <li><a class="header__menu_link" href="#mentors">Ментори</a></li>
           <li><a class="header__menu_link" href="#">Подати заявку</a></li>
         </ul>
-      </div>
+      </nav>
       <div class="burger-wrapper">
-      <button id="burger-button"><img class="burger-icon" src="img/icons/burger_icon.svg" alt="burger"></button>
-    </div>
+        <button id="burger-button"><img class="burger-icon" src="img/icons/burger_icon.svg" alt="burger"></button>
+      </div>
     </div>
   </header>
 
@@ -63,18 +63,19 @@
         <h2 class="register">Зареєструватися на курси</h2>
         <form class="form" action="">
           <label for="first-name" class="form-label">Ім'я</label>
-          <input id="first-name" name="first-name" type="text" class="form-input" placeholder="Ім'я" />
+          <input id="first-name" name="first-name" type="text" class="form-input" placeholder="Ім'я" required />
           <label for="last-name" class="form-label">Прізвище</label>
-          <input name="last-name" id="last-name" type="text" class="form-input" placeholder="Прізвище" />
+          <input name="last-name" id="last-name" type="text" class="form-input" placeholder="Прізвище" required />
           <label for="preference" class="form-label">Мене більше цікавить</label>
-          <input name="preference" id="preference" type="text" class="form-input" placeholder="Developer or QA" />
+          <input name="preference" id="preference" type="text" class="form-input" placeholder="Developer or QA"
+            required />
           <label for="phone" class="form-label">Номер телефону</label>
-          <input name="phone" id="phone" type="text" class="form-input"
+          <input name="phone" id="phone" type="text" class="form-input" required
             placeholder="Номер телефону: +38 XXX XX XX XXX" />
           <label for="email" class="form-label">Email</label>
-          <input id="email" name="email" type="text" class="form-input" placeholder="Email" />
+          <input id="email" name="email" type="text" class="form-input" placeholder="Email" required />
           <div class="confidence">
-            <input class="checkbox-button" type="checkbox" name="politician" id="politician" />
+            <input class="checkbox-button" type="checkbox" name="politician" id="politician" required />
             <label class="form-label active-label" for="politician">Я погоджуюся із
               <a class="politician" href="#">
                 Політикою Конфіденційності</a></label>
@@ -84,7 +85,7 @@
       </div>
     </div>
   </section>
-  <section class="development" >
+  <section class="development">
     <div class="lol" id="development"></div>
     <div class="development__inner">
       <h2 class="title">Курс &laquo;Розробка сайтів&raquo;</h2>
@@ -185,7 +186,7 @@
     </div>
   </section>
 
-  <section class="video" >
+  <section class="video">
     <div class="lol" id="video"></div>
     <div class="video__inner">
       <div class="video__text">
@@ -203,7 +204,7 @@
       </div>
     </div>
   </section>
-  <section class="mentors" >
+  <section class="mentors">
     <div class="lol" id="mentors"></div>
     <div class="mentors__inner">
       <h2 class="mentors__title">Наші ментори</h2>
@@ -228,7 +229,8 @@
               от заповітні мрії не стоять на полиці, бо Віктор вміє впевнено йти до їхнього здійснення. Тільки недавно
               він
               передавав усім привіт з Ельбрусу &mdash; найвищої точки Європи. </p>
-            <p class="mentors__text_other onetwo">Буде нестримна, мов гірська лавина, енергія, помножена на мудрість і досвід.
+            <p class="mentors__text_other onetwo">Буде нестримна, мов гірська лавина, енергія, помножена на мудрість і
+              досвід.
               І
               ви
               таке пропустите? Записуйтесь уже зараз!</p>
@@ -254,7 +256,8 @@
               от заповітні мрії не стоять на полиці, бо Віктор вміє впевнено йти до їхнього здійснення. Тільки недавно
               він
               передавав усім привіт з Ельбрусу &mdash; найвищої точки Європи. </p>
-            <p class="mentors__text_other onetwo">Буде нестримна, мов гірська лавина, енергія, помножена на мудрість і досвід.
+            <p class="mentors__text_other onetwo">Буде нестримна, мов гірська лавина, енергія, помножена на мудрість і
+              досвід.
               І
               ви
               таке пропустите? Записуйтесь уже зараз!</p>
@@ -280,13 +283,14 @@
               от заповітні мрії не стоять на полиці, бо Віктор вміє впевнено йти до їхнього здійснення. Тільки недавно
               він
               передавав усім привіт з Ельбрусу &mdash; найвищої точки Європи. </p>
-            <p class="mentors__text_other onetwo">Буде нестримна, мов гірська лавина, енергія, помножена на мудрість і досвід.
+            <p class="mentors__text_other onetwo">Буде нестримна, мов гірська лавина, енергія, помножена на мудрість і
+              досвід.
               І
               ви
               таке пропустите? Записуйтесь уже зараз!</p>
           </div>
         </div>
-       
+
 
 
       </div>
