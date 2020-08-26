@@ -8,6 +8,7 @@ $(".slider-top").slick({
   autoplay: true,
   autoplaySpeed: 3000,
   dots: true,
+  rows: 0,
   responsive: [{
       breakpoint: 850,
       settings: {
@@ -15,6 +16,7 @@ $(".slider-top").slick({
         slidesToScroll: 1,
         infinite: true,
         dots: true,
+        rows: 0,
       },
     },
     {
@@ -24,8 +26,8 @@ $(".slider-top").slick({
         slidesToScroll: 1,
         infinite: true,
         dots: true,
+        rows: 0,
       },
     }
   ],
 });
-
