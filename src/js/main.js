@@ -25,9 +25,6 @@
 
     let sl = document.getElementById("mark");
     let bt = document.getElementsByClassName("development__block").length;
-    console.log(bt);
-
-
 
     /* Mentor's slider */
     $(".slider-bottom").slick({
@@ -44,12 +41,17 @@
 
     let show_burger = document.getElementById("burger");
     let burger_button = document.getElementById("burger-button");
-    show_burger.style.display = "none"
+    show_burger.style.display = "none";
     burger_button.addEventListener("click", function () {
-     
+
       if (show_burger.style.display == "none") {
         show_burger.style.display = "flex";
       } else {
+        show_burger.style.display = "none";
+      }
+    });
+    window.addEventListener('resize', function () {
+      if (window.innerWidth >= 852) {
         show_burger.style.display = "none";
       }
     });

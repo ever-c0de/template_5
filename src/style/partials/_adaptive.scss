@@ -2,19 +2,25 @@
   display: none;
 }
 
+@media all and (min-width: 852px) {
+  .burger {
+    display: none;
+  }
+}
+
 @media all and (max-width: 1082px) {
   .hide {
     display: block;
   }
+
   .development__block__title {
     padding: 0 100px;
   }
 
-  .development__block {}
 }
 
 @media all and (max-width: 946px) {
-  
+
 
   .development__block__title {
     width: fit-content;
@@ -62,10 +68,6 @@
       justify-content: center;
       text-align: center;
       color: #ffffff;
-
-      &:first-child {}
-
-      &:last-child {}
 
       img {
         height: 57px;
@@ -206,9 +208,6 @@
   }
 
 
-
-  .development__block {}
-
   .header__menu {
     display: none;
   }
@@ -245,7 +244,7 @@
     }
 
     &__block {
-      
+
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -254,7 +253,7 @@
 
       color: #ffffff;
 
-      @media all  and (max-width: 600px) {
+      @media all and (max-width: 600px) {
         width: 201px;
       }
     }
@@ -461,10 +460,6 @@
 
       text-align: center;
 
-      &:first-child {}
-
-      &:last-child {}
-
       img {
         margin-bottom: 7px;
 
@@ -525,9 +520,6 @@
 
   .slider {
 
-
-    &__first {}
-
     .person {
       padding-left: 6px;
       margin-top: 5px;
@@ -544,26 +536,10 @@
 
     .slick-dots {
       margin-top: 94px;
-
-      li {}
-
-      .slick-active {
-        button {}
-      }
-
-      button {}
     }
   }
 
-  .slick-track {}
-
-  .text_slider {}
-
-
   .video {
-
-    &__inner {}
-
     &__text {
 
       h2 {
@@ -786,25 +762,25 @@
 
   .footer {
     height: 111px;
-  
+
     background-color: $bg_grey;
-  
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-  
+
     &__copyright {
       color: #709eca;
       font-size: 14px;
       letter-spacing: 0.1px;
       font-weight: 300;
     }
-  
+
     &__confidence {
       margin-top: 14px;
-  
+
       a {
         text-decoration: none;
         font-size: 13px;

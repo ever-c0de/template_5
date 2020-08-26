@@ -156,9 +156,15 @@
         -ms-border-radius: 50px;
         -o-border-radius: 50px;
         white-space: nowrap;
-      }
-      .form-button-action:hover{
-        background-color: #fff;
+        transition: all .3s ease-in-out;
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+}
+
+      .form-button-action:hover {
+        background-color: #3e8ed4;
       }
     }
   }
