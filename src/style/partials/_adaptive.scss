@@ -18,6 +18,8 @@
   }
 }
 
+@media all and (max-width: 888px) {}
+
 
 @media all and (max-width: 1159px) {
   .achievements {
@@ -400,6 +402,7 @@
           }
 
           &_title {
+            padding: 0 35px;
             font-size: 19px;
             margin-bottom: 17px;
             padding-bottom: 2px;
