@@ -1,4 +1,4 @@
-@media all and (max-width: 1190px) {
+@media all and (max-width: 1175px) {
   .development {
     width: 100%;
     position: relative;
@@ -23,14 +23,10 @@
 
 
     .slider-top {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      overflow: hidden;
+
     }
 
     .slick-track {
-
       display: flex;
       justify-content: center;
       align-items: flex-start;
@@ -74,7 +70,6 @@
     }
 
     &__block {
-      min-width: 400px;
       display: inline-flex;
       flex-direction: column;
       justify-content: center;
@@ -112,6 +107,7 @@
     }
   }
 }
+
 
 @media all and (max-width: 1159px) {
   .achievements {
@@ -182,6 +178,10 @@
   .mentors__dialog {
     margin: 0 auto;
   }
+
+  .mentors__name {
+    text-align: center;
+  }
 }
 
 
@@ -246,7 +246,22 @@
   }
 }
 
+
 @media all and (max-width: 850px) {
+  .slider-top {
+
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .slick-track {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+  }
+
   .header {
     height: 70px;
 
@@ -256,10 +271,7 @@
     }
   }
 
-  #mark {
-    display: block;
-    padding: 0;
-  }
+
 
   .development__block {}
 
@@ -340,6 +352,8 @@
     padding-bottom: 15px;
   }
 }
+
+@media all and (max-width: 830px) {}
 
 
 @media all and (max-width: 654px) {

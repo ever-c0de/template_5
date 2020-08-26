@@ -22,18 +22,15 @@
 
 
   .slider-top {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+
     overflow: hidden;
   }
 
   .slick-track {
-
+    min-width: 0;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-
   }
 
   .slick-dots {
@@ -102,7 +99,7 @@
       line-height: 25px;
       letter-spacing: 0.1px;
       max-width: 345px;
-      margin: 0 auto;
+
     }
 
     img {
