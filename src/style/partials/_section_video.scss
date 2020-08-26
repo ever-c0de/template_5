@@ -1,6 +1,6 @@
 .video {
   width: 100%;
-
+  position: relative;
   background-color: $bg_grey;
 
   &__inner {
@@ -43,12 +43,13 @@
   width: 1020px;
   height: 520px;
 }
+
 @media all and (max-width: 1200px) {
-  .video__youtube{
+  .video__youtube {
     width: 100%;
   }
-  .youtube{
+
+  .youtube {
     width: 100%;
   }
 }
-

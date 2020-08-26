@@ -26,6 +26,12 @@ body {
     padding: 0px 15px;
   }
 
+  div.lol {
+    min-height: 100px;
+    position: absolute;
+    top: -100px;
+  }
+
   @import 'partials/header';
   @import 'partials/section_form';
   @import 'partials/section_development';
@@ -36,6 +42,6 @@ body {
   @import 'partials/footer';
   @import 'partials/section_mentors';
   @import 'partials/adaptive';
-  
+
 
 }
