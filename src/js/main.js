@@ -24,7 +24,10 @@
     /* Development slider */
 
     let sl = document.getElementById("mark");
-    let bt = document.getElementsByClassName("development__block");
+    let bt = document.getElementsByClassName("development__block").length;
+    console.log(bt);
+
+
 
     /* Mentor's slider */
     $(".slider-bottom").slick({
@@ -40,7 +43,7 @@
     });
 
     // if (blocks > 3) {
-   
+
     // }
 
     // window.addEventListener("resize", function () {

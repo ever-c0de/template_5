@@ -1,4 +1,5 @@
-let sl = document.getElementById("mark");
+
+
 $(".slider-top").slick({
   // autoplay
   arrows: false,

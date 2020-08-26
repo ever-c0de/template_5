@@ -22,7 +22,6 @@
 
 
   .slider-top {
-
     overflow: hidden;
   }
 
@@ -70,7 +69,7 @@
   }
 
   &__block {
-    min-width: 400px;
+    width: 33.3%;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;

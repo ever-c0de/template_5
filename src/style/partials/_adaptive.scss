@@ -1,110 +1,20 @@
-@media all and (max-width: 1175px) {
-  .development {
-    width: 100%;
-    position: relative;
+.hide {
+  display: none;
+}
 
-    &__inner {
-      margin: 0 auto;
-      max-width: 1250px;
-      padding: 0 15px;
-      text-align: center;
-      padding-bottom: 84px;
+@media all and (max-width: 1082px) {
+  .hide {
+    display: block;
+  }
 
-      .title {
-        font-size: 33px;
-        letter-spacing: 0.5px;
+  .development__block {}
+}
 
-        margin-top: 67px;
-        margin-bottom: 30px;
-      }
-    }
+@media all and (max-width: 946px) {
+  .hide {}
 
-    .up {}
-
-
-    .slider-top {
-
-    }
-
-    .slick-track {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-
-    }
-
-    .slick-dots {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 30px;
-      padding: 0;
-
-      li {
-        list-style: none;
-        margin: 0 7px;
-      }
-
-      .slick-active {
-        .development__block {
-          margin: 0;
-        }
-
-        button {
-          background-color: #666666;
-        }
-      }
-
-      button {
-        font-size: 0;
-        background-color: #b4b5b5;
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
-        border: none;
-      }
-    }
-
-    &__block {
-      display: inline-flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-
-      &:last-child {
-        margin: 0;
-      }
-
-      h2 {
-        padding: 0 1px;
-        padding-bottom: 20px;
-        margin-bottom: 30px;
-
-        font-size: 22px;
-        letter-spacing: 1px;
-
-        border-bottom: 1px solid $button_bg_color;
-
-      }
-
-      p {
-        font-size: 15px;
-        color: $text_color;
-        text-align: center;
-        line-height: 25px;
-        letter-spacing: 0.1px;
-        max-width: 345px;
-        margin: 0 auto;
-      }
-
-      img {
-        margin-bottom: 16px;
-      }
-    }
+  .development__block__title {
+    width: fit-content;
   }
 }
 
