@@ -42,34 +42,11 @@
       rows: 0,
     });
 
-    // if (blocks > 3) {
-
-    // }
-
-    // window.addEventListener("resize", function () {
-    //   if (window.innerWidth <= 850) {
-    //     $(".slider-top").slick({
-    //       // autoplay
-    //       arrows: false,
-    //       infinite: true,
-    //       slidesToShow: 2,
-    //       slidesToScroll: 1,
-    //       autoplay: true,
-    //       autoplaySpeed: 3000,
-    //       dots: true,
-
-    //     });
-    //     sl.style.display = "block";
-    //     sl.style.padding = "0";
-    //     sl.style.verticalAlign = "top";
-    //   } else {
-    //     $(".slider-top").slick("unslick");
-    //   }
-    // });
-
     let show_burger = document.getElementById("burger");
     let burger_button = document.getElementById("burger-button");
+    show_burger.style.display = "none"
     burger_button.addEventListener("click", function () {
+     
       if (show_burger.style.display == "none") {
         show_burger.style.display = "flex";
       } else {

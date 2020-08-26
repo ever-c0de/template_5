@@ -18,7 +18,20 @@
   }
 }
 
-@media all and (max-width: 888px) {}
+@media all and (max-width: 940px) {}
+
+@media all and (max-width: 888px) {
+  .section__form__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section__form__right_block {
+    padding-bottom: 30px;
+  }
+}
 
 
 @media all and (max-width: 1159px) {
@@ -160,8 +173,13 @@
 
 
 @media all and (max-width: 850px) {
-  .slider-top {
+  div.lol {
+    min-height: 100px;
+    position: absolute;
+    top: -310px;
+  }
 
+  .slider-top {
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -291,6 +309,7 @@
     width: 100%;
   }
 
+  .contacts__inner
 
 }
 
@@ -304,6 +323,10 @@
       width: 60px;
       height: 60px;
     }
+  }
+
+  .section__form__inner {
+    display: block;
   }
 
   .section__form__left_block {
