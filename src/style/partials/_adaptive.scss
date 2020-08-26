@@ -6,12 +6,15 @@
   .hide {
     display: block;
   }
+  .development__block__title {
+    padding: 0 100px;
+  }
 
   .development__block {}
 }
 
 @media all and (max-width: 946px) {
-  .hide {}
+  
 
   .development__block__title {
     width: fit-content;
@@ -137,6 +140,7 @@
       font-weight: 300;
 
       max-width: 920px;
+      padding: 0 50px;
 
 
       text-align: center;
@@ -158,13 +162,13 @@
 
       &::after {
         content: "\f10e";
-        display: block;
+        display: inline-block;
         font-size: 24px;
         font-family: 'Awesome';
         color: #c4c4c4;
 
         position: absolute;
-        bottom: -6%;
+        bottom: -3%;
         right: 2%;
       }
     }
@@ -231,30 +235,34 @@
 
       display: flex;
       flex-direction: row;
-      justify-content: center;
-      align-items: center;
+      justify-content: space-around;
+      align-items: flex-start;
       flex-wrap: wrap;
 
-      max-width: 1060px;
+      max-width: 1050px;
       width: 100%;
       background-color: #3199dc;
     }
 
     &__block {
-      margin-top: 2px;
+      
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
       width: 150px;
 
       color: #ffffff;
+
+      @media all  and (max-width: 600px) {
+        width: 201px;
+      }
     }
   }
 
   .contacts-logo {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
   }
 
 
@@ -281,10 +289,9 @@
     margin-top: 0;
     padding-bottom: 15px;
   }
+
+
 }
-
-@media all and (max-width: 830px) {}
-
 
 @media all and (max-width: 654px) {
   .section__form__inner {
@@ -308,8 +315,6 @@
   .section__form__right_block {
     width: 100%;
   }
-
-  .contacts__inner
 
 }
 
@@ -502,6 +507,7 @@
       width: 249px;
       font-size: 13px;
       line-height: 21px;
+      padding: 0;
 
       &::before {
         font-size: 15px;
@@ -776,5 +782,35 @@
   .first {
     margin-top: 0;
     padding-bottom: 15px;
+  }
+
+  .footer {
+    height: 111px;
+  
+    background-color: $bg_grey;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    &__copyright {
+      color: #709eca;
+      font-size: 14px;
+      letter-spacing: 0.1px;
+      font-weight: 300;
+    }
+  
+    &__confidence {
+      margin-top: 14px;
+  
+      a {
+        text-decoration: none;
+        font-size: 13px;
+        letter-spacing: 0.2px;
+        color: #98948b;
+      }
+    }
   }
 }
