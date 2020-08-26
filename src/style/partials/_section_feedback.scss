@@ -25,6 +25,7 @@
 
     max-width: 920px;
 
+
     text-align: center;
     line-height: 36px;
     letter-spacing: 0.5px;
@@ -44,7 +45,7 @@
 
     &::after {
       content: "\f10e";
-      display: inline-block;
+      display: block;
       font-size: 30px;
       font-family: 'Awesome';
       color: #c4c4c4;

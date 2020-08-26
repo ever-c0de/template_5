@@ -24,11 +24,12 @@
   .slider-top {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     overflow: hidden;
   }
 
   .slick-track {
-    width: 1220px;
+
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -72,7 +73,7 @@
   }
 
   &__block {
-    max-width: 400px;
+    min-width: 400px;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
