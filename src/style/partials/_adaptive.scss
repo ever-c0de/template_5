@@ -177,6 +177,39 @@
   }
 }
 
+@media all and (max-width: 700px) {
+  .achievements{
+    
+  }
+}
+
+@media all and (max-width: 634px) {
+  .feedback__text{
+    &::before {
+      content: "\f10d";
+      display: inline-block;
+      font-family: 'Awesome';
+      font-size: 24px;
+      color: #c4c4c4;
+
+      position: absolute;
+      top: -4%;
+      left: 1%;
+    }
+
+    &::after {
+      content: "\f10e";
+      display: inline-block;
+      font-size: 24px;
+      font-family: 'Awesome';
+      color: #c4c4c4;
+
+      position: absolute;
+      bottom: -3%;
+      right: 2%;
+    }
+  }
+}
 
 @media all and (max-width: 850px) {
   div.lol {
