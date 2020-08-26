@@ -6,7 +6,7 @@
     max-width: 1250px;
     padding: 0 15px;
     text-align: center;
-    padding-bottom: 84px;
+    padding-bottom: 49px;
 
     .title {
       font-size: 33px;
@@ -24,8 +24,10 @@
 
   .slider-top {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: flex-start;
+    vertical-align: top;
     overflow: hidden;
     padding: 0 29px;
 
@@ -35,7 +37,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-
+    vertical-align: top;
   }
 
   .slick-dots {
@@ -75,8 +77,8 @@
   }
 
   &__block {
-    
-    max-width: 351px;
+
+    max-width: 360px;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;

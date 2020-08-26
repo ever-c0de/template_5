@@ -8,6 +8,13 @@
     }
   }
 
+  #mark {
+    display: block;
+    padding: 0;
+  }
+
+  .development__block {}
+
   .header__menu {
     display: none;
   }
@@ -53,7 +60,7 @@
 
 
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 440px) {
   .header {
     height: 70px;
 
@@ -385,7 +392,7 @@
       &_other {
         margin-top: 10px;
         width: 295px;
-        
+
       }
     }
   }
@@ -435,9 +442,11 @@
       background-color: #666666;
     }
   }
-  .oneone{
+
+  .oneone {
     width: 270px;
   }
+
   .onetwo {
     margin-top: 11px;
     width: 289px;
@@ -446,61 +455,61 @@
   /* CONTACTS */
 
 
-.contacts {
-  height: 267px;
+  .contacts {
+    height: 267px;
 
-  &__inner {
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    &__inner {
 
-    max-width: 1060px;
-    width: 100%;
-    background-color: #3199dc;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+
+      max-width: 1060px;
+      width: 100%;
+      background-color: #3199dc;
+    }
+
+    &__block {
+      margin-top: 2px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 150px;
+
+      color: #ffffff;
+    }
   }
 
-  &__block {
-    margin-top: 2px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 150px;
+  .contacts-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+
+  .name {
+    margin-top: 10px;
+
+    font-size: 14px;
+    font-weight: 800;
+  }
+
+  .sub {
+    margin-top: 3px;
+    font-size: 12px;
 
     color: #ffffff;
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
+    }
   }
-}
 
-.contacts-logo {
-  width: 40px;
-  height: 40px;
-}
-
-
-.name {
-  margin-top: 10px;
-
-  font-size: 14px;
-  font-weight: 800;
-}
-
-.sub {
-  margin-top: 3px;
-  font-size: 12px;
-
-  color: #ffffff;
-
-  a {
-    text-decoration: none;
-    color: #ffffff;
+  .first {
+    margin-top: 0;
+    padding-bottom: 15px;
   }
-}
-
-.first{
-  margin-top: 0;
-  padding-bottom: 15px;
-}
 }
