@@ -47,12 +47,13 @@
   margin-top: 3px;
   font-size: 15px;
   color: #ffffff;
-  &:hover {
-    text-decoration: underline;
-  }
+  
 
   a {
     text-decoration: none;
     color: #ffffff;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
