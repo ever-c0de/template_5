@@ -17,6 +17,12 @@
     padding: 0 100px;
   }
 
+  .development__block{
+    p{
+      width: 260px;
+    }
+  }
+
 }
 
 @media all and (max-width: 946px) {
@@ -372,7 +378,7 @@
     }
 
     p {
-      max-width: 270px;
+      max-width: 600px;
       font-size: 15px;
     }
   }
@@ -626,6 +632,7 @@
       }
 
       .lorem {
+        padding: 0;
         font-size: 15px;
         width: 290px;
         line-height: 22px;
