@@ -1,5 +1,4 @@
-
-
+/* 
 $(".slider-top").slick({
   // autoplay
   arrows: false,
@@ -31,4 +30,4 @@ $(".slider-top").slick({
       },
     }
   ],
-});
+}); */
