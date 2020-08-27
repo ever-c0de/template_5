@@ -72,12 +72,6 @@ gulp.task("html", function () {
   return gulp.src("src/index.html").pipe(gulp.dest("build"));
 });
 
-// 
-gulp.task("fonts", function () {
-  return gulp.src("src/fonts").pipe(gulp.dest("build"));
-});
-
-
 // Optimize Images
 gulp.task("images", function () {
   return gulp
@@ -162,7 +156,7 @@ gulp.task("browser-sync", function () {
     "src/index.html",
   ];
   browserSync.init({
-    proxy: "template_4.test",
+    proxy: "template_5.test",
     online: true,
   });
 });
@@ -170,7 +164,7 @@ gulp.task("browser-sync", function () {
 // Default task to be run with `gulp`
 gulp.task(
   "default",
-  ["html", "sass", "browser-sync", "images", "fonts"],
+  ["html", "sass", "browser-sync", "images"],
   function () {
     gulp.watch("src/style/**/*.scss", ["sass"]);
     gulp.watch("bootstrap/assets/stylesheets/**/*.scss", ["sass"]);

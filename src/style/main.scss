@@ -1,36 +1,16 @@
 @import 'partials/reset'; // include
-@import 'partials/app'; //include fonts
+@import 'partials/fonts'; //include fonts
 
 // Variables
-$text_color: #666666;
-$button_bg_color: #307ab9;
-$bg_grey: #f7f7f7;
 
 body {
-
-  font-family: "Open Sans", serif;
-  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif, serif;
+  font-size: 18px;
   margin: 0 auto;
 
-
-  height: auto;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  .container {
-    max-width: 1250px;
-    margin: 0 auto;
-    padding: 0px 15px;
+  h1 {
+    font-family: "Quicksand";
+    font-weight: 700;
+    font-size: 50px;
   }
-
-  div.lol {
-    min-height: 100px;
-    position: absolute;
-    top: -100px;
-  }
-
-  @import 'partials/header';
-
 }
