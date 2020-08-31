@@ -8,9 +8,16 @@ body {
   font-size: 18px;
   margin: 0 auto;
 
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1200px;
+    }
+  }
+
   h1 {
     font-family: "Quicksand";
     font-weight: 700;
     font-size: 50px;
+
   }
 }
