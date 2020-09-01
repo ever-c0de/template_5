@@ -3,44 +3,54 @@
 		height: 99px;
 	}
 
+	&__nav{
+		margin-bottom: 2px;
+	}
 	&__logo {
 		display: flex;
-		justify-content: center;
-		align-content: flex-end;
-
-		&__title {
-			color: #ffffff;
-			font-family: 'Quicksand';
-			font-size: 24px;
-			font-weight: 600;
-
-			text-transform: uppercase;
-			letter-spacing: 0.5px;
-		}
+		padding-left: 2px;
 
 		&_sub {
-			opacity: 0.3;
-			color: #ffffff;
-			font-family: "Source Sans Pro";
-			font-size: 9px;
-			font-weight: 400;
-			line-height: 10px;
-			text-transform: uppercase;
-			letter-spacing: 1.26px;
+			padding-left: 7px;
+			height: 16px;
+			width: 51px;
+			align-self: flex-end;
 		}
 	}
 
 	.header__list {
-		display: flex;
+		display: inline-flex;
 		flex-direction: row;
+		
+		
+		li{
+			margin-left: 23px;
+		}
 
 		.header__nav__items {
-			margin-left: 23px;
 			color: #fffefe;
 			font-family: "Source Sans Pro";
 			font-size: 16px;
 			font-weight: 600;
-			line-height: 75px;
+			line-height: 41px;
+			position: relative;
+			text-decoration: none;
+
+			&:hover:after{
+				content: '';
+				display: block;
+				background-image: url('../img/hover_line.png');
+				background-size: cover;
+				width: 42px;
+				height: 2px;
+				position: absolute;
+				text-decoration: none;
+				margin: auto;
+				top: 40px;
+				left: 0;
+				right: 0;
+				bottom: 0;
+			}
 		}
 	}
 }

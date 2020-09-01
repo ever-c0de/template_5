@@ -1,5 +1,6 @@
 @import 'partials/reset'; // include reset
 @import 'partials/fonts'; //include fonts
+@import 'partials/vars';  //include variables, mixin`s, etc.
 
 // Variables
 
@@ -11,6 +12,7 @@ body {
   @media (min-width: 1200px) {
     .container {
       max-width: 1200px;
+
     }
   }
 }
