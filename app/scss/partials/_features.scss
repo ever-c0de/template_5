@@ -1,4 +1,5 @@
 .features {
+  height: 511px;
   margin-top: 63px;
 
   &__name {
@@ -71,7 +72,7 @@
 
     &_text {
       margin-top: 13px;
-      width: 240px;
+      max-width: 240px;
 
       color: $grey_color;
       line-height: 26px;

@@ -398,7 +398,7 @@ body {
       max-width: 1200px; } }
 
 .visit {
-  height: 640px;
+  max-height: 640px;
   background: url("../img/bg_first_slide.png") center no-repeat;
   background-size: cover; }
   .visit .description {
@@ -504,6 +504,7 @@ body {
       bottom: 0; }
 
 .features {
+  height: 511px;
   margin-top: 63px; }
   .features__name {
     display: -webkit-box;
@@ -593,6 +594,11 @@ body {
       font-weight: 400; }
     .features__block_text {
       margin-top: 13px;
-      width: 240px;
+      max-width: 240px;
       color: #999999;
       line-height: 26px; }
+
+.content {
+  margin-top: 66px; }
+  .content__left__phone {
+    margin-left: 20px; }
