@@ -548,6 +548,51 @@ body {
       left: 0;
       right: 0;
       bottom: 0; }
-  .features__block_image {
-    width: 88px;
-    height: 88px; }
+  .features__blocks {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 112px; }
+  .features__block {
+    width: 270px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center; }
+    .features__block_image {
+      width: 88px;
+      height: 88px; }
+    .features__block_title {
+      width: 160px;
+      margin-top: 33px;
+      font-size: 24px;
+      font-weight: 400; }
+    .features__block_text {
+      margin-top: 13px;
+      width: 240px;
+      color: #999999;
+      line-height: 26px; }

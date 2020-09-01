@@ -22,35 +22,60 @@
     font-weight: 600;
     position: relative;
 
-    &::after{
+    &::after {
       content: '';
-				display: block;
-				background-image: url('../img/hover_line.png');
-				background-size: cover;
-				width: 42px;
-				height: 2px;
-				position: absolute;
-				text-decoration: none;
-				margin: auto;
-				top: 112px;
-				left: 0;
-				right: 0;
-				bottom: 0;
+      display: block;
+      background-image: url('../img/hover_line.png');
+      background-size: cover;
+      width: 42px;
+      height: 2px;
+      position: absolute;
+      text-decoration: none;
+      margin: auto;
+      top: 112px;
+      left: 0;
+      right: 0;
+      bottom: 0;
     }
   }
 
-  &__blocks {}
+  &__blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 112px;
+  }
 
   &__block {
+    width: 270px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
     &_image {
       width: 88px;
       height: 88px;
     }
 
-    &_title {}
+    &_title {
+      width: 160px;
+      margin-top: 33px;
 
-    &_text {}
+      font-size: 24px;
+      font-weight: 400;
+    }
+
+    &_text {
+      margin-top: 13px;
+      width: 240px;
+
+      color: $grey_color;
+      line-height: 26px;
+    }
   }
 }
 
