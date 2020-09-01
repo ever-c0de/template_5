@@ -1,0 +1,46 @@
+.header {
+	.row {
+		height: 99px;
+	}
+
+	&__logo {
+		display: flex;
+		justify-content: center;
+		align-content: flex-end;
+
+		&__title {
+			color: #ffffff;
+			font-family: 'Quicksand';
+			font-size: 24px;
+			font-weight: 600;
+
+			text-transform: uppercase;
+			letter-spacing: 0.5px;
+		}
+
+		&_sub {
+			opacity: 0.3;
+			color: #ffffff;
+			font-family: "Source Sans Pro";
+			font-size: 9px;
+			font-weight: 400;
+			line-height: 10px;
+			text-transform: uppercase;
+			letter-spacing: 1.26px;
+		}
+	}
+
+	.header__list {
+		display: flex;
+		flex-direction: row;
+
+		.header__nav__items {
+			margin-left: 23px;
+			color: #fffefe;
+			font-family: "Source Sans Pro";
+			font-size: 16px;
+			font-weight: 600;
+			line-height: 75px;
+		}
+	}
+}
