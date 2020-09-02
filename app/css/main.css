@@ -636,7 +636,11 @@ body {
   line-height: 26px; }
 
 .details__previleges {
-  margin-top: 35px; }
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
   .details__previleges__images {
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
@@ -674,11 +678,18 @@ body {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 100px; }
+  width: 240px;
+  margin-left: 10px; }
   .details__list_item {
     width: -webkit-fit-content;
     width: -moz-fit-content;
-    width: fit-content; }
+    width: fit-content;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 17px; }
+    .details__list_item:last-child {
+      margin-bottom: 0px;
+      margin-top: 2px; }
 
 .lol {
   letter-spacing: 0.2px; }

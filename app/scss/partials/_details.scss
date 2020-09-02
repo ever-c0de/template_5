@@ -47,6 +47,7 @@
 
   &__previleges {
     margin-top: 35px;
+    display: flex;
 
     &__images {
       display: inline-flex;
@@ -76,10 +77,20 @@
   &__list {
     display: flex;
     flex-direction: column;
-    width: 100px;
+    width: 240px;
+    margin-left: 10px;
 
     &_item {
       width: fit-content;
+      font-size: 18px;
+      font-weight: 400;
+      margin-bottom: 17px;
+
+      &:last-child{
+        margin-bottom: 0px;
+        margin-top: 2px;
+
+      }
     }
   }
 }
