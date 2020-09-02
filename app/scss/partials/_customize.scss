@@ -1,0 +1,51 @@
+.customize {
+  background-color: #f2f2f2;
+  padding-bottom: 20px;
+
+  &__name {
+    margin-top: 130px;
+  }
+
+  &__uptitle {
+    color: $blue_color;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+  }
+
+  &__title {
+    margin-top: 16px;
+    font-size: 36px;
+    font-weight: 600;
+    position: relative;
+    letter-spacing: 0.1px;
+
+    &::after {
+      content: '';
+      display: block;
+      background-image: url('../img/hover_line.png');
+      background-size: cover;
+      width: 42px;
+      height: 2px;
+      position: absolute;
+      text-decoration: none;
+      margin: auto;
+      left: 0;
+      top: 66px;
+    }
+  }
+
+  &__phone {
+    margin-top: 33px;
+    margin-left: -29px;
+    
+  }
+
+  &__paragraph {
+    margin-top: 55px;
+
+    color: $grey_color;
+    line-height: 26px;
+  }
+}
