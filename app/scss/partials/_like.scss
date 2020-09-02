@@ -1,0 +1,57 @@
+.like {
+  height: 170px;
+  background-color: #000000;
+  color: #ffffff;
+
+  &__block{
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: 36px;
+    font-weight: 300;
+    padding-bottom: 5px;
+
+    .bold{
+      font-weight: 600;
+      
+    }
+  }
+
+  &__button {
+    border: none;
+    outline: none;
+    width: 160px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba($color: #000000, $alpha: 0);
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: $blue_color;
+      box-shadow: none;
+    }
+  }
+
+  .active {
+    margin-left: 16px;
+    background-color: $blue_color;
+
+    &:hover {
+      background-color: #00a1f1;
+    }
+  }
+}
+
