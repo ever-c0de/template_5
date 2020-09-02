@@ -11,15 +11,9 @@
       slidesToShow: 2,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 10000,
+      autoplaySpeed: 100000,
       dots: true,
       rows: 0,
-
-      // fade
-      useTransform: true,
-      speed: 2000,
-      fade: true,
-      cssEase: "cubic-bezier(0.22, 1, 0.36, 1)",
     });
 
     // /* Development slider */
