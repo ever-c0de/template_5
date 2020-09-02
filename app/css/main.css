@@ -963,3 +963,50 @@ body {
     background-color: #008ed6; }
     .like .active:hover {
       background-color: #00a1f1; }
+
+.pricings__name {
+  margin-top: 58px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.pricings__uptitle {
+  color: #008ed6;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.4px; }
+
+.pricings__title {
+  margin-top: 16px;
+  font-size: 36px;
+  font-weight: 600;
+  position: relative; }
+  .pricings__title::after {
+    content: '';
+    display: block;
+    background-image: url("../img/hover_line.png");
+    background-size: cover;
+    width: 42px;
+    height: 2px;
+    position: absolute;
+    text-decoration: none;
+    margin: auto;
+    top: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0; }
