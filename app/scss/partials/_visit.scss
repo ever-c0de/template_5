@@ -60,7 +60,12 @@
       &:hover {
         background-color: $blue_color;
         box-shadow: none;
-
+      }
+    }
+    .active{
+      background-color: $blue_color;
+      &:hover{
+        background-color: #00a1f1;
       }
     }
 

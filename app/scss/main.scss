@@ -12,7 +12,6 @@ body {
   @media (min-width: 1200px) {
     .container {
       max-width: 1200px;
-
     }
   }
 }
@@ -22,3 +21,4 @@ body {
 @import 'partials/features';
 @import 'partials/details';
 @import 'partials/customize';
+@import 'partials/quality';
