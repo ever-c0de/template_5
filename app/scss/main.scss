@@ -9,6 +9,13 @@ body {
   font-size: 18px;
   margin: 0 auto;
 
+  button:active, button:focus {
+    outline: none;
+  }
+  button::-moz-focus-inner {
+    border: 0;
+  }
+  
   @media (min-width: 1200px) {
     .container {
       max-width: 1200px;
