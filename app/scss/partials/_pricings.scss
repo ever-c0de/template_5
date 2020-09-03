@@ -1,4 +1,5 @@
 .pricings {
+  height: 779px;
 
   &__table {
     margin-top: 103px;
@@ -44,12 +45,58 @@
     }
   }
 
+  .pricings__active{
+    .pricings__block_title {
+      color: $blue_color;
+    }
+    .pricings__block_price {
+      background-color: $blue_color;
+      color: #ffffff;
+    }
+    .pricings__block_about_order {
+      background-color: $blue_color;
+      color: #ffffff;
+    }
+
+    &:hover{
+      .pricings__block_title {
+        color: #00a1f1;
+      }
+      .pricings__block_price {
+        background-color: #00a1f1;
+        color: #ffffff;
+      }
+      .pricings__block_about_order {
+        background-color: #00a1f1;
+        color: #ffffff;
+      }
+    }
+  }
+
   &__block {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+
+    &:hover {
+      
+      .pricings__block_title {
+        color: $blue_color;
+      }
+
+      .pricings__block_price {
+        background-color: $blue_color;
+        color: #ffffff;
+      }
+
+      .pricings__block_about_order {
+        background-color: $blue_color;
+        color: #ffffff;
+        text-decoration: none;
+      }
+    }
 
     &_title {
       display: flex;
@@ -72,7 +119,6 @@
     &_price {
       height: 152px;
       width: 100%;
-      position: relative;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -82,19 +128,24 @@
       border-top: none;
 
       .value {
+        position: relative;
         display: flex;
         font-size: 60px;
         font-weight: 600;
         padding-left: 9px;
         padding-bottom: 4px;
 
+        .first__bucks {
+          right: 30px;
+        }
+
         &__bucks {
           position: absolute;
           font-size: 27px;
           font-weight: 600;
 
-          left: 109px;
-          top: 42px;
+          right: 63px;
+          top: 9px;
         }
       }
 
@@ -153,6 +204,7 @@
       font-size: 14px;
       font-weight: 700;
       text-transform: uppercase;
+      text-decoration: none;
     }
   }
 }
