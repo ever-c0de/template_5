@@ -15,7 +15,7 @@ body {
   button::-moz-focus-inner {
     border: 0;
   }
-  
+
   @media (min-width: 1200px) {
     .container {
       max-width: 1200px;
@@ -32,3 +32,4 @@ body {
 @import 'partials/like';
 @import 'partials/pricings';
 @import 'partials/contact';
+@import 'partials/footer';
