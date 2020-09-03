@@ -1483,6 +1483,10 @@ body {
         font-weight: 700;
         font-size: 14px; }
 
+.google-map {
+  height: 369px;
+  width: 100%; }
+
 .footer {
   height: 160px;
   background-color: #15141a; }
@@ -1522,14 +1526,14 @@ body {
             justify-content: space-between;
     width: 220px; }
   .footer__icon .be {
-    width: 19px;
-    height: 13px; }
-  .footer__icon .dribble {
-    width: 18px;
+    width: 22px;
     height: 18px; }
+  .footer__icon .dribble {
+    width: 20px;
+    height: 20px; }
   .footer__icon .twitter {
     width: 18px;
-    height: 14px; }
+    height: 18px; }
   .footer__icon .facebook {
     width: 10px;
     height: 18px; }
