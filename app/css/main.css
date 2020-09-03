@@ -737,6 +737,7 @@ body {
       left: 0;
       top: 66px; }
   .customize__phone {
+    width: 718px;
     margin-top: 33px;
     margin-left: -29px; }
   .customize__paragraph {
@@ -1024,6 +1025,8 @@ body {
   .pricings .pricings__active .pricings__block_about_order {
     background-color: #008ed6;
     color: #ffffff; }
+  .pricings .pricings__active .periodicity {
+    color: #ffffff; }
   .pricings .pricings__active:hover .pricings__block_title {
     color: #00a1f1; }
   .pricings .pricings__active:hover .pricings__block_price {
@@ -1051,6 +1054,8 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center; }
+    .pricings__block:hover .periodicity {
+      color: #ffffff; }
     .pricings__block:hover .pricings__block_title {
       color: #008ed6; }
     .pricings__block:hover .pricings__block_price {

@@ -57,6 +57,9 @@
       background-color: $blue_color;
       color: #ffffff;
     }
+    .periodicity{
+      color: #ffffff;
+    }
 
     &:hover{
       .pricings__block_title {
@@ -81,6 +84,9 @@
     text-align: center;
 
     &:hover {
+      .periodicity{
+        color: #ffffff;
+      }
       
       .pricings__block_title {
         color: $blue_color;
