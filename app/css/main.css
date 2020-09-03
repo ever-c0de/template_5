@@ -1484,6 +1484,71 @@ body {
         font-size: 14px; }
 
 .footer {
+  height: 160px;
   background-color: #15141a; }
-  .footer__icons svg {
-    fill: red; }
+  .footer__wrapper {
+    margin-top: 54px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center; }
+  .footer__icons {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 220px; }
+  .footer__icon .be {
+    width: 19px;
+    height: 13px; }
+  .footer__icon .dribble {
+    width: 18px;
+    height: 18px; }
+  .footer__icon .twitter {
+    width: 18px;
+    height: 14px; }
+  .footer__icon .facebook {
+    width: 10px;
+    height: 18px; }
+  .footer__icon .linkedin {
+    width: 18px;
+    height: 18px; }
+  .footer__icon svg {
+    width: 18px;
+    height: 18px;
+    fill: #ffffff;
+    opacity: 0.2; }
+    .footer__icon svg:hover {
+      opacity: 1;
+      fill: #008ed6; }
+  .footer__copyright {
+    margin-top: 12px; }
+    .footer__copyright_item {
+      text-transform: uppercase;
+      color: #444348;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 48px; }

@@ -100,7 +100,7 @@ gulp.task("prebuild", async function () {
     .pipe(gulp.dest("dist/js"));
 
   var buildHtml = gulp
-    .src("app/*.html") // Переносим HTML в продакшен
+    .src("app/*.html") 
     .pipe(gulp.dest("dist"));
 });
 
@@ -109,12 +109,12 @@ gulp.task("clear", function (callback) {
 });
 
 gulp.task("watch", function () {
-  gulp.watch("app/scss/**/*.scss", gulp.parallel("sass")); // Наблюдение за sass файлами
-  gulp.watch("app/*.html", gulp.parallel("code")); // Наблюдение за HTML файлами в корне проекта
+  gulp.watch("app/scss/**/*.scss", gulp.parallel("sass")); 
+  gulp.watch("app/*.html", gulp.parallel("code")); 
   gulp.watch(
     ["app/js/common.js", "app/libs/**/*.js"],
     gulp.parallel("scripts")
-  ); // Наблюдение за главным JS файлом и за библиотеками
+  ); 
 });
 gulp.task(
   "default",
