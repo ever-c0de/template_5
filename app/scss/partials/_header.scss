@@ -3,8 +3,26 @@
 		height: 99px;
 	}
 
+	&__burger{
+		display: flex;
+		width: fit-content;
+		.burger__button{
+			outline: none;
+			border: none;
+			background-color: $blue_color;
+
+			.burger__icon{
+				
+			}
+		}
+		&__items{
+
+		}
+	}
+
 	&__nav{
 		margin-bottom: 2px;
+		
 	}
 	&__logo {
 		display: flex;
@@ -21,7 +39,6 @@
 	.header__list {
 		display: inline-flex;
 		flex-direction: row;
-		
 		
 		li{
 			margin-left: 23px;

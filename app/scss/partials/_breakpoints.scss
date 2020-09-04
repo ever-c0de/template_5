@@ -1,0 +1,143 @@
+/* Visit Section */
+@media screen and (max-width: 1199px) {
+  .features{
+    .features__blocks{
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      .features__block{
+        margin: 0;
+        margin-top: 30px;
+        align-self: center;
+        justify-self: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1045px) {
+  .visit {
+    .introducing {
+      .description {
+        &__phone {
+          margin-left: 56px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .visit {
+    .header__nav {
+      .header__list {
+        li {}
+      }
+    }
+
+    .introducing {
+      .description {
+        &__title {
+          text-align: center;
+
+          &__upper {
+            text-align: center;
+          }
+        }
+
+        &__phone {
+          display: block;
+        }
+
+        &__text {
+          text-align: center;
+          width: 300px;
+          margin: 0 auto;
+          margin-top: 24px;
+        }
+
+        &__phone {
+          margin: 0 auto;
+          margin-top: 40px;
+        }
+
+        .buttons {
+          width: fit-content;
+          margin: 0 auto;
+
+          margin-top: 60px;
+        }
+      }
+    }
+  }
+}
+
+;
+
+@media screen and (max-width: 767px) {
+  .visit {
+    .header__nav {
+      display: none;
+
+      &__burger {
+        display: flex;
+      }
+    }
+
+  }
+}
+
+;
+
+@media screen and (min-width: 767px) {
+  .visit {
+    .header__nav {
+      display: flex;
+    }
+
+    .header__burger {
+      display: none;
+    }
+
+    .header__burger__list {
+      display: none;
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 575px) {
+  .visit {
+    .header__burger {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+
+      .burger__button {
+
+      }
+    }
+    .description__phone{
+      width: 100%;
+    }
+  }
+  .introducing{
+    .buttons{
+      .description__button.second{
+        margin: 0;
+        margin-top: 20px;
+      }
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      button{
+        
+      }
+    }
+  }
+}
+
