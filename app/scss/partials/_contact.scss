@@ -70,6 +70,16 @@
       font-size: 18px;
       font-weight: 400;
       line-height: 26px;
+
+      a{
+      color: $grey_color;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 26px;
+      text-decoration: none;
+      outline: none;
+      border: none;
+      }
     }
   }
 }

@@ -1269,6 +1269,14 @@ body {
       font-size: 18px;
       font-weight: 400;
       line-height: 26px; }
+      .contact__block__text a {
+        color: #999999;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        text-decoration: none;
+        outline: none;
+        border: none; }
 
 #contact__phone .contact__block__text {
   width: 195px;
@@ -1524,32 +1532,49 @@ body {
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    width: 220px; }
-  .footer__icon .be {
-    width: 22px;
-    height: 18px; }
-  .footer__icon .dribble {
-    width: 20px;
-    height: 20px; }
-  .footer__icon .twitter {
-    width: 18px;
-    height: 18px; }
-  .footer__icon .facebook {
-    width: 10px;
-    height: 18px; }
-  .footer__icon .linkedin {
-    width: 18px;
-    height: 18px; }
-  .footer__icon svg {
-    width: 18px;
-    height: 18px;
-    fill: #ffffff;
-    opacity: 0.2; }
-    .footer__icon svg:hover {
-      opacity: 1;
-      fill: #008ed6; }
+    width: 221px; }
+  .footer__icon {
+    margin-right: 15px; }
+    .footer__icon:last-child {
+      margin-right: 0; }
+    .footer__icon .be {
+      width: 22px;
+      height: 18px; }
+    .footer__icon .dribble {
+      padding-left: 2px;
+      width: 35px;
+      height: 19px; }
+    .footer__icon .twitter {
+      padding-right: 6px;
+      width: 31px;
+      height: 18px; }
+    .footer__icon .facebook {
+      padding-right: 8px;
+      width: 29px;
+      height: 18px; }
+    .footer__icon .linkedin {
+      width: 19px;
+      height: 20px; }
+    .footer__icon svg {
+      width: 18px;
+      height: 18px;
+      fill: #ffffff;
+      opacity: 0.2; }
+      .footer__icon svg:hover {
+        opacity: 1;
+        fill: #008ed6; }
   .footer__copyright {
-    margin-top: 12px; }
+    margin-top: 10px; }
+    .footer__copyright a {
+      text-decoration: none;
+      outline: none;
+      border: none; }
+      .footer__copyright a:hover {
+        text-decoration: none;
+        color: #ffffff;
+        opacity: 0.8;
+        outline: none;
+        border: none; }
     .footer__copyright_item {
       text-transform: uppercase;
       color: #444348;
