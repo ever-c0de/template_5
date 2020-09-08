@@ -540,7 +540,12 @@ body {
     margin: 0 auto;
     margin-top: 15px; }
   .like .like__block .like__title {
-    width: 300px; } }
+    width: 300px; }
+  .pricings__table {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    min-height: 1100px; } }
 
 @media screen and (max-width: 767px) {
   .visit .header__nav {
@@ -566,7 +571,12 @@ body {
       margin-top: 15px;
       width: 400px;
       padding-bottom: 15px;
-      text-align: center; } }
+      text-align: center; }
+  .pricings__table {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    min-height: 2200px; } }
 
 @media screen and (min-width: 767px) {
   .visit .header__nav {
