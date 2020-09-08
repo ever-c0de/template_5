@@ -403,8 +403,13 @@ body {
 
 /* Visit Section */
 @media screen and (max-width: 1214px) {
-  .quality .slider .slider__block .slider__block_feedback {
-    max-width: 550px; } }
+  .quality .slider {
+    overflow: hidden; }
+    .quality .slider .slider__block .slider__block_feedback {
+      max-width: 550px; }
+  .customize .customize__phone {
+    margin: 0;
+    width: 480px; } }
 
 @media screen and (max-width: 1199px) {
   .features .features__blocks {
@@ -439,7 +444,18 @@ body {
     margin: 0;
     width: 480px; }
   .quality .slider .slider__block_feedback {
-    max-width: 420px; } }
+    max-width: 420px; }
+  .quality .slider .slider__block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto; } }
 
 @media screen and (max-width: 1045px) {
   .visit .introducing .description__phone {
@@ -529,7 +545,12 @@ body {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
-      display: flex; } }
+      display: flex; }
+  .slider .slider__block .slider__block_feedback {
+    width: 280px;
+    text-align: center; }
+  .slider .slick-dots {
+    margin: 20px auto; } }
 
 @media screen and (min-width: 767px) {
   .visit .header__nav {
@@ -601,7 +622,9 @@ body {
   .features__title {
     text-align: center; }
   .features .features__blocks {
-    margin-top: 65px; } }
+    margin-top: 65px; }
+  .slider .slider__block .slider__block_feedback {
+    width: 250px; } }
 
 .visit {
   min-height: 640px;

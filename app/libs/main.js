@@ -12,6 +12,18 @@
       autoplaySpeed: 5000,
       dots: true,
       rows: 0,
+      responsive: [
+        {
+          breakpoint: 1199,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true,
+            rows: 0,
+          }
+        },
+      ]
     });
   });
 })();

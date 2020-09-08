@@ -2,6 +2,8 @@
 @media screen and (max-width: 1214px) {
   .quality {
     .slider {
+      overflow: hidden;
+
       .slick-track {}
 
       .slider__block {
@@ -9,6 +11,13 @@
           max-width: 550px;
         }
       }
+    }
+  }
+
+  .customize {
+    .customize__phone {
+      margin: 0;
+      width: 480px;
     }
   }
 }
@@ -67,6 +76,16 @@
         max-width: 420px;
       }
 
+    }
+  }
+
+  .quality {
+    .slider {
+      .slider__block {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+      }
     }
   }
 }
@@ -200,6 +219,19 @@
       }
     }
   }
+
+  .slider {
+    .slider__block {
+      .slider__block_feedback {
+        width: 280px;
+        text-align: center;
+      }
+    }
+
+    .slick-dots {
+      margin: 20px auto;
+    }
+  }
 }
 
 @media screen and (min-width: 767px) {
@@ -305,6 +337,14 @@
 
     .features__blocks {
       margin-top: 65px;
+    }
+  }
+
+  .slider {
+    .slider__block {
+      .slider__block_feedback {
+        width: 250px;
+      }
     }
   }
 }
