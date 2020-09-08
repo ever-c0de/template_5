@@ -4,7 +4,8 @@
     .slider {
       overflow: hidden;
 
-      .slick-track {}
+      .slick-track {
+      }
 
       .slider__block {
         .slider__block_feedback {
@@ -101,7 +102,8 @@
       flex-wrap: wrap;
     }
 
-    .contact__block {}
+    .contact__block {
+    }
 
     .contact__form__row {
       margin: 0 auto;
@@ -112,7 +114,6 @@
       width: 100%;
     }
   }
-
 }
 
 @media screen and (max-width: 1045px) {
@@ -131,7 +132,8 @@
   .visit {
     .header__nav {
       .header__list {
-        li {}
+        li {
+        }
       }
     }
 
@@ -336,7 +338,8 @@
       display: flex;
       justify-content: flex-end;
 
-      .burger__button {}
+      .burger__button {
+      }
     }
 
     .description__phone {
@@ -356,7 +359,8 @@
       justify-content: center;
       align-content: center;
 
-      button {}
+      button {
+      }
     }
   }
 
@@ -381,19 +385,17 @@
       width: 95%;
       top: -55px;
 
-
-
-
       .main__block {
         .contact__form__left__block {
           .contact__input {
-            width: 90%;
+            width: 100%;
+            margin-left: 40px;
           }
         }
 
         .contact__form__right__block {
           textarea {
-            width: 80%;
+            width: 85%;
           }
         }
       }
@@ -407,6 +409,33 @@
       .details__title {
         &::after {
           margin-top: 34px;
+        }
+      }
+    }
+  }
+  .contact {
+    &__options {
+      margin-bottom: 100px;
+    }
+
+    .contact__form {
+      margin: 0 auto;
+      width: 95%;
+      top: -55px;
+
+      .main__block {
+        flex-direction: column;
+        .contact__form__left__block {
+          .contact__input {
+            width: 100%;
+            margin: 0 auto;
+          }
+        }
+
+        .contact__form__right__block {
+          textarea {
+            width: 85%;
+          }
         }
       }
     }
