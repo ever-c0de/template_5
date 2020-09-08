@@ -1,4 +1,13 @@
 /* Visit Section */
+@media screen and (max-width: 1214px) {
+  .quality {
+    .slider {
+      
+      
+    }
+  }
+}
+
 @media screen and (max-width: 1199px) {
   .features {
     .features__blocks {
@@ -40,6 +49,7 @@
       margin: 0;
       margin-top: 50px;
     }
+
     .customize__phone {
       margin: 0;
       width: 480px;
@@ -143,6 +153,28 @@
       }
     }
   }
+
+  .customize {
+    &__name {
+      .customize__title {
+        &::after {
+          margin-top: -4px;
+        }
+      }
+    }
+
+    .customize__name {
+      margin: 0;
+      margin-top: 50px;
+    }
+
+    .customize__phone {
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 15px;
+    }
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -220,27 +252,36 @@
 
 @media screen and (max-width: 420px) {
   .details {
-    &__items {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-
-      .details__name {
-        margin-top: 30px;
-
-        .details__title {
-          &::after {
-            top: 95px;
-          }
+    .details__name {
+      .details__title {
+        &::after {
+          margin-top: 34px;
         }
       }
+    }
+  }
+}
 
-      .details__phone {
-        display: block;
-        margin: 0 auto;
-        margin-top: 66px;
+@media screen and (max-width: 405px) {
+  .customize {
+    &__name {
+      .customize__title {
+        &::after {
+          margin-top: 32px;
+        }
       }
+    }
+
+    .customize__name {
+      margin: 0;
+      margin-top: 50px;
+    }
+
+    .customize__phone {
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 15px;
     }
   }
 }
