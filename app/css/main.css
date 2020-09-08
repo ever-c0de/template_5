@@ -659,22 +659,38 @@ body {
   .details .details__name .details__title::after {
     margin-top: 34px; }
   .contact__options {
-    margin-bottom: 100px; }
+    margin-bottom: 300px; }
   .contact .contact__form {
     margin: 0 auto;
-    width: 95%;
-    top: -55px; }
+    width: 93%;
+    top: -250px; }
     .contact .contact__form .main__block {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
       -webkit-flex-direction: column;
           -ms-flex-direction: column;
-              flex-direction: column; }
+              flex-direction: column;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
       .contact .contact__form .main__block .contact__form__left__block .contact__input {
         width: 100%;
-        margin: 0 auto; }
+        margin: 0 auto;
+        margin-top: 15px; }
       .contact .contact__form .main__block .contact__form__right__block textarea {
-        width: 85%; } }
+        margin-top: 20px;
+        width: 100%;
+        height: 100px; }
+      .contact .contact__form .main__block .contact__form_button {
+        left: 80px;
+        right: 0;
+        bottom: 0;
+        top: 330px; } }
 
 @media screen and (max-width: 405px) {
   .customize__name .customize__title::after {
