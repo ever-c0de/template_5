@@ -455,7 +455,9 @@ body {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .like .like__block .like__title {
+    width: 460px; } }
 
 @media screen and (max-width: 1045px) {
   .visit .introducing .description__phone {
@@ -536,7 +538,9 @@ body {
     display: block;
     width: 100%;
     margin: 0 auto;
-    margin-top: 15px; } }
+    margin-top: 15px; }
+  .like .like__block .like__title {
+    width: 300px; } }
 
 @media screen and (max-width: 767px) {
   .visit .header__nav {
@@ -550,7 +554,18 @@ body {
     width: 280px;
     text-align: center; }
   .slider .slick-dots {
-    margin: 20px auto; } }
+    margin: 20px auto; }
+  .like .like__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .like .like__block .like__title {
+      margin-top: 20px;
+      width: 400px;
+      padding-bottom: 0;
+      text-align: center; } }
 
 @media screen and (min-width: 767px) {
   .visit .header__nav {

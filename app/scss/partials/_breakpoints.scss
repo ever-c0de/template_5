@@ -88,6 +88,14 @@
       }
     }
   }
+
+  .like {
+    .like__block {
+      .like__title {
+        width: 460px;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 1045px) {
@@ -207,6 +215,14 @@
       margin-top: 15px;
     }
   }
+
+  .like {
+    .like__block {
+      .like__title {
+        width: 300px;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -230,6 +246,19 @@
 
     .slick-dots {
       margin: 20px auto;
+    }
+  }
+
+  .like {
+    .like__block {
+      flex-direction: column;
+
+      .like__title {
+        margin-top: 20px;
+        width: 400px;
+        padding-bottom: 0;
+        text-align: center;
+      }
     }
   }
 }
