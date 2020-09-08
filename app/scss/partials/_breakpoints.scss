@@ -96,6 +96,22 @@
     }
   }
 
+  .contact {
+    .contact__options {
+      flex-wrap: wrap;
+    }
+
+    .contact__block {}
+
+    .contact__form__row {
+      margin: 0 auto;
+    }
+
+    .contact__form {
+      margin: 0 auto;
+      width: 100%;
+    }
+  }
 
 }
 
@@ -274,6 +290,27 @@
     flex-wrap: wrap;
     min-height: 2200px;
   }
+
+  .contact {
+    .contact__form {
+      margin: 0 auto;
+      width: 100%;
+
+      .main__block {
+        .contact__form__left__block {
+          .contact__input {
+            width: 90%;
+          }
+        }
+
+        .contact__form__right__block {
+          textarea {
+            width: 130%;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 767px) {
@@ -330,6 +367,35 @@
         margin: 0 auto;
         margin-top: 66px;
         width: 100%;
+      }
+    }
+  }
+
+  .contact {
+    &__options {
+      margin-bottom: 100px;
+    }
+
+    .contact__form {
+      margin: 0 auto;
+      width: 95%;
+      top: -55px;
+
+
+
+
+      .main__block {
+        .contact__form__left__block {
+          .contact__input {
+            width: 90%;
+          }
+        }
+
+        .contact__form__right__block {
+          textarea {
+            width: 80%;
+          }
+        }
       }
     }
   }

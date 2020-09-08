@@ -457,7 +457,16 @@ body {
             flex-direction: column;
     margin: 0 auto; }
   .like .like__block .like__title {
-    width: 460px; } }
+    width: 460px; }
+  .contact .contact__options {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+  .contact .contact__form__row {
+    margin: 0 auto; }
+  .contact .contact__form {
+    margin: 0 auto;
+    width: 100%; } }
 
 @media screen and (max-width: 1045px) {
   .visit .introducing .description__phone {
@@ -576,7 +585,14 @@ body {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-    min-height: 2200px; } }
+    min-height: 2200px; }
+  .contact .contact__form {
+    margin: 0 auto;
+    width: 100%; }
+    .contact .contact__form .main__block .contact__form__left__block .contact__input {
+      width: 90%; }
+    .contact .contact__form .main__block .contact__form__right__block textarea {
+      width: 130%; } }
 
 @media screen and (min-width: 767px) {
   .visit .header__nav {
@@ -626,7 +642,17 @@ body {
     display: block;
     margin: 0 auto;
     margin-top: 66px;
-    width: 100%; } }
+    width: 100%; }
+  .contact__options {
+    margin-bottom: 100px; }
+  .contact .contact__form {
+    margin: 0 auto;
+    width: 95%;
+    top: -55px; }
+    .contact .contact__form .main__block .contact__form__left__block .contact__input {
+      width: 90%; }
+    .contact .contact__form .main__block .contact__form__right__block textarea {
+      width: 80%; } }
 
 @media screen and (max-width: 420px) {
   .details .details__name .details__title::after {
@@ -1479,7 +1505,7 @@ body {
       text-decoration: none; }
 
 .contact {
-  height: 718px;
+  min-height: 718px;
   background-color: #ededed;
   position: relative; }
   .contact__options {
