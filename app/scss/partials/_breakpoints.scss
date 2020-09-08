@@ -2,8 +2,13 @@
 @media screen and (max-width: 1214px) {
   .quality {
     .slider {
-      
-      
+      .slick-track {}
+
+      .slider__block {
+        .slider__block_feedback {
+          max-width: 550px;
+        }
+      }
     }
   }
 }
@@ -55,6 +60,15 @@
       width: 480px;
     }
   }
+
+  .quality {
+    .slider {
+      .slider__block_feedback {
+        max-width: 420px;
+      }
+
+    }
+  }
 }
 
 @media screen and (max-width: 1045px) {
@@ -73,8 +87,7 @@
   .visit {
     .header__nav {
       .header__list {
-        li {
-        }
+        li {}
       }
     }
 
@@ -212,8 +225,7 @@
       display: flex;
       justify-content: flex-end;
 
-      .burger__button {
-      }
+      .burger__button {}
     }
 
     .description__phone {
@@ -233,8 +245,7 @@
       justify-content: center;
       align-content: center;
 
-      button {
-      }
+      button {}
     }
   }
 
