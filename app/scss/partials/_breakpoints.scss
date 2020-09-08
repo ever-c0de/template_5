@@ -36,11 +36,13 @@
       }
     }
 
+    .customize__name {
+      margin: 0;
+      margin-top: 50px;
+    }
     .customize__phone {
-      display: flex;
-alig
-
-      width: 100%;
+      margin: 0;
+      width: 480px;
     }
   }
 }
@@ -61,7 +63,8 @@ alig
   .visit {
     .header__nav {
       .header__list {
-        li {}
+        li {
+        }
       }
     }
 
@@ -177,7 +180,8 @@ alig
       display: flex;
       justify-content: flex-end;
 
-      .burger__button {}
+      .burger__button {
+      }
     }
 
     .description__phone {
@@ -197,7 +201,8 @@ alig
       justify-content: center;
       align-content: center;
 
-      button {}
+      button {
+      }
     }
   }
 
@@ -238,7 +243,6 @@ alig
       }
     }
   }
-
 }
 
 @media screen and (max-width: 368px) {
