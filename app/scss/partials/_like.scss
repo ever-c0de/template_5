@@ -1,10 +1,10 @@
 .like {
-  height: 170px;
+  min-height: 170px;
   background-color: #000000;
   color: #ffffff;
 
-  &__block{
-    height: 170px;
+  &__block {
+    min-height: 170px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,7 +15,7 @@
     font-weight: 300;
     padding-bottom: 5px;
 
-    .bold{
+    .bold {
       font-weight: 600;
     }
   }
@@ -53,4 +53,3 @@
     }
   }
 }
-

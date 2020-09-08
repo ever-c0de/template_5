@@ -1,5 +1,5 @@
 .pricings {
-  height: 779px;
+  min-height: 779px;
 
   &__table {
     margin-top: 103px;
@@ -45,31 +45,36 @@
     }
   }
 
-  .pricings__active{
+  .pricings__active {
     .pricings__block_title {
       color: $blue_color;
     }
+
     .pricings__block_price {
       background-color: $blue_color;
       color: #ffffff;
-      
+
     }
+
     .pricings__block_about_order {
       background-color: $blue_color;
       color: #ffffff;
     }
-    .periodicity{
+
+    .periodicity {
       color: #ffffff;
     }
 
-    &:hover{
+    &:hover {
       .pricings__block_title {
         color: #00a1f1;
       }
+
       .pricings__block_price {
         background-color: #00a1f1;
         color: #ffffff;
       }
+
       .pricings__block_about_order {
         background-color: #00a1f1;
         color: #ffffff;
@@ -85,10 +90,10 @@
     text-align: center;
 
     &:hover {
-      .periodicity{
+      .periodicity {
         color: #ffffff;
       }
-      
+
       .pricings__block_title {
         color: $blue_color;
       }

@@ -4,7 +4,8 @@
     .slider {
       overflow: hidden;
 
-      .slick-track {}
+      .slick-track {
+      }
 
       .slider__block {
         .slider__block_feedback {
@@ -75,7 +76,6 @@
       .slider__block_feedback {
         max-width: 420px;
       }
-
     }
   }
 
@@ -114,7 +114,8 @@
   .visit {
     .header__nav {
       .header__list {
-        li {}
+        li {
+        }
       }
     }
 
@@ -252,13 +253,13 @@
   .like {
     .like__block {
       flex-direction: column;
-
       .like__title {
-        margin-top: 20px;
+        margin-top: 15px;
         width: 400px;
-        padding-bottom: 0;
+        padding-bottom: 15px;
         text-align: center;
       }
+      padding-bottom: 25px;
     }
   }
 }
@@ -286,7 +287,8 @@
       display: flex;
       justify-content: flex-end;
 
-      .burger__button {}
+      .burger__button {
+      }
     }
 
     .description__phone {
@@ -306,7 +308,8 @@
       justify-content: center;
       align-content: center;
 
-      button {}
+      button {
+      }
     }
   }
 
@@ -354,6 +357,25 @@
       width: 100%;
       margin: 0 auto;
       margin-top: 15px;
+    }
+  }
+  .like {
+    width: 100%;
+    .like__block {
+      width: 100%;
+      .like__title {
+        max-width: fit-content;
+      }
+      .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .active {
+        margin: 0;
+        margin-top: 10px;
+      }
     }
   }
 }
