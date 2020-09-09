@@ -2,5 +2,5 @@
 .jshintrc
 *.log*
 node_modules/
-
+package.json
 
