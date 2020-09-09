@@ -28,17 +28,17 @@
 
     var show_burger = document.getElementById("burger__menu");
     var burger_button = document.getElementById("burger-button");
-    show_burger.style.display = "none";
+    show_burger.style.opacity = "0";
     burger_button.addEventListener("click", function () {
-      if (show_burger.style.display == "none") {
-        show_burger.style.display = "flex";
+      if (show_burger.style.opacity == "0") {
+        show_burger.style.opacity = "1";
       } else {
-        show_burger.style.display = "none";
+        show_burger.style.opacity = "0";
       }
     });
     window.addEventListener("resize", function () {
       if (window.innerWidth >= 852) {
-        show_burger.style.display = "none";
+        show_burger.style.opacity = "0";
       }
     });
   });
