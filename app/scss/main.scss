@@ -1,6 +1,7 @@
 @import 'partials/reset'; // include reset
 @import 'partials/fonts'; //include fonts
-@import 'partials/vars';  //include variables, mixin`s, etc.
+@import 'partials/vars';  //include variables.
+@import 'partials/mixins';  //include mixin`s.
 
 // Variables
 
@@ -22,6 +23,7 @@ body {
     }
   }
 }
+
 @import 'partials/breakpoints';
 @import 'partials/visit';
 @import 'partials/header';
@@ -33,3 +35,4 @@ body {
 @import 'partials/pricings';
 @import 'partials/contact';
 @import 'partials/footer';
+

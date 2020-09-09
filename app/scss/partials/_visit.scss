@@ -1,11 +1,13 @@
 .visit {
   min-height: 640px;
-  background: url('../img/bg_first_slide.png') center no-repeat;
+  background: url("../img/bg_first_slide.png") center no-repeat;
   background-size: cover;
 
-  .introducing {}
+  .introducing {
+  }
 
-  .col-xl-6 {}
+  .col-xl-6 {
+  }
 
   .description {
     margin-top: 61px;
@@ -22,9 +24,7 @@
         font-size: 14px;
         font-weight: 600;
         letter-spacing: 1.6px;
-
       }
-
     }
 
     &__text {
@@ -57,14 +57,16 @@
       font-weight: 700;
       text-transform: uppercase;
 
+      @include my_transition();
+
       &:hover {
         background-color: $blue_color;
         box-shadow: none;
       }
     }
-    .active{
+    .active {
       background-color: $blue_color;
-      &:hover{
+      &:hover {
         background-color: #00a1f1;
       }
     }
@@ -78,5 +80,4 @@
       margin-left: 79px;
     }
   }
-
 }

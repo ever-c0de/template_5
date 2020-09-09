@@ -150,6 +150,8 @@
       text-transform: uppercase;
       text-decoration: none;
 
+      @include my_transition();
+
       &:hover {
         outline: none;
         background-color: #00a1f1;
