@@ -1191,7 +1191,7 @@ body {
     margin-left: 20px;
     margin-top: 66px; }
   .details__paragraph {
-    width: 470px;
+    max-width: 470px;
     margin-top: 55px;
     color: #999999;
     line-height: 26px; }
