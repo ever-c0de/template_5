@@ -20,9 +20,11 @@
     "gulp-uglifyjs": "^0.6.2",
     "gulp-update": "0.0.2",
     "imagemin-pngquant": "^9.0.0",
+    "jquery": "^3.5.1",
     "js-yaml": "^3.14.0",
     "jshint": "^2.9.6",
-    "main-bower-files": "*"
+    "main-bower-files": "*",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "gulp": "^4.0.2"

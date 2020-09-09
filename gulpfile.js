@@ -43,6 +43,8 @@ gulp.task("scripts", function () {
     .src([
     
       "app/libs/**/*.js",
+      "node_modules/jquery/dist/jquery.slim.js",
+      "node_modules/slick-carousel/slick/slick.min.js"
     ])
     .pipe(concat("libs.min.js")) 
     .pipe(uglify()) 
@@ -52,14 +54,6 @@ gulp.task("scripts", function () {
 gulp.task("code", function () {
   return gulp.src("app/*.html").pipe(browserSync.reload({ stream: true }));
 });
-
-// gulp.task('css-libs', function() {
-// 	return gulp.src('app/css/libs.scss') // Выбираем файл для минификации
-// 		.pipe(sass()) // Преобразуем Sass в CSS посредством gulp-sass
-// 		.pipe(cssnano()) // Сжимаем
-// 		.pipe(rename({suffix: '.min'})) // Добавляем суффикс .min
-// 		.pipe(gulp.dest('app/css')); // Выгружаем в папку app/css
-// });
 
 gulp.task("clean", async function () {
   return del.sync("dist"); 
@@ -118,7 +112,6 @@ gulp.task("watch", function () {
 gulp.task(
   "default",
   gulp.parallel(
-    /* 'css-libs', */
     "sass",
     "scripts",
     "browser-sync",
