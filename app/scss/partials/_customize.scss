@@ -1,7 +1,7 @@
 .customize {
   scroll-behavior: smooth;
 
-  background-color: #f2f2f2;
+  background-color: $section_customize_bg_color;
   padding-bottom: 19px;
 
   &__name {

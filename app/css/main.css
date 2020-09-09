@@ -389,6 +389,9 @@ textarea {
   src: local(""), url("../fonts/quicksand/quicksand-v21-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/quicksand/quicksand-v21-latin-700.woff2") format("woff2"), url("../fonts/quicksand/quicksand-v21-latin-700.woff") format("woff"), url("../fonts/quicksand/quicksand-v21-latin-700.ttf") format("truetype"), url("../fonts/quicksand/quicksand-v21-latin-700.svg#Quicksand") format("svg");
   /* Legacy iOS */ }
 
+/* Element`s color */
+/* Sectoin`s color */
+/* Footer color */
 html {
   scroll-behavior: smooth; }
 
