@@ -37,7 +37,7 @@
       }
     });
     window.addEventListener("resize", function () {
-      if (window.innerWidth >= 852) {
+      if (window.innerWidth >= 765) {
         show_burger.style.opacity = "0";
       }
     });
