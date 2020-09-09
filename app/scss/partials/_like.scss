@@ -53,7 +53,7 @@
     background-color: $blue_color;
 
     &:hover {
-      background-color: #00a1f1;
+      background-color: $button_active_color;
     }
   }
 }

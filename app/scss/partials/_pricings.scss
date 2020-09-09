@@ -76,16 +76,16 @@
 
     &:hover {
       .pricings__block_title {
-        color: #00a1f1;
+        color: $button_active_color;
       }
 
       .pricings__block_price {
-        background-color: #00a1f1;
+        background-color: $button_active_color;
         color: #ffffff;
       }
 
       .pricings__block_about_order {
-        background-color: #00a1f1;
+        background-color: $button_active_color;
         color: #ffffff;
       }
     }

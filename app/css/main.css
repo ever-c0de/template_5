@@ -1091,7 +1091,7 @@ body {
     font-weight: 600;
     position: relative; }
     .features__title::after {
-      content: '';
+      content: "";
       display: block;
       background-image: url("../img/hover_line.png");
       background-size: cover;
@@ -1275,7 +1275,7 @@ body {
     position: relative;
     letter-spacing: 0.1px; }
     .customize__title::after {
-      content: '';
+      content: "";
       display: block;
       background-image: url("../img/hover_line.png");
       background-size: cover;
@@ -1469,7 +1469,6 @@ body {
   height: 14px;
   background-color: #ffffff; }
 
-/*  */
 .like {
   scroll-behavior: smooth;
   min-height: 170px;
@@ -1840,7 +1839,7 @@ body {
     font-weight: 600;
     position: relative; }
     .contact__title::after {
-      content: '';
+      content: "";
       display: block;
       background-image: url("../img/hover_line.png");
       background-size: cover;

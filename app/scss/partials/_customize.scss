@@ -24,9 +24,9 @@
     letter-spacing: 0.1px;
 
     &::after {
-      content: '';
+      content: "";
       display: block;
-      background-image: url('../img/hover_line.png');
+      background-image: url("../img/hover_line.png");
       background-size: cover;
       width: 42px;
       height: 2px;
@@ -42,7 +42,6 @@
     max-width: 718px;
     margin-top: 33px;
     margin-left: -29px;
-    
   }
 
   &__paragraph {
